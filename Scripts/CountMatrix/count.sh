@@ -18,7 +18,7 @@ mkdir -p "$spatial_output"
 for sample_dir in "$single_cell_dir"/*; do
     sample=$(basename "$sample_dir")
     echo "Processing single-cell sample: $sample"
-    cellranger count --id=$single_cell_output/${sample}_SingleCell \
+    cellranger count --id=$single_cell_output/$sample \
                      --transcriptome=$transcriptome_path \
                      --fastqs=$sample_dir/fastqfiles/ \
                      --sample=$sample \
@@ -30,7 +30,7 @@ done
 for sample_dir in "$spatial_dir"/*; do
     sample=$(basename "$sample_dir")
     echo "Procecssing spatial sample: $sample"
-    spaceranger count --id=$spatial_output/${sample}_Spatial \
+    spaceranger count --id=$spatial_output/$sample \
                       --transcriptome=$transcriptome_path \
                       --fastqs=$sample_dir/fastqfiles/ \
                       --sample=$sample \
