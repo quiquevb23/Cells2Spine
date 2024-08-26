@@ -30,6 +30,7 @@ done
 for sample_dir in "$spatial_dir"/*; do
     sample=$(basename "$sample_dir")
     echo "Procecssing spatial sample: $sample"
+    mkdir -p "$spatial_output"/"$sample"
     spaceranger count --id=$spatial_output/$sample \
                       --transcriptome=$transcriptome_path \
                       --fastqs=$sample_dir/fastqfiles/ \

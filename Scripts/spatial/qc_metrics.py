@@ -6,23 +6,24 @@ import seaborn as sns
 import squidpy
 
 # Define directories
-base_dir = '/storage/gge/Quique/Cells2SpineData/Pilot/spatial/'
+base_dir = '/storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices'
 output_base_dir = '/home/quiquevb/Cells2Spine/Cells2Spine/Outputs/spatial'
 
 # Loop over all subdirectories
 for file_name in os.listdir(base_dir):
     sample_path = os.path.join(base_dir, file_name)
-    for file in os.listdir(sample_path):
+    outs_path = os.path.join(sample_path, "outs")
+    for file in os.listdir(outs_path):
         if file.endswith('filtered_feature_bc_matrix.h5'):
             sample_name = file.replace('_filtered_feature_bc_matrix.h5', '')
-            counts_file = os.path.join(sample_path, file)
+            counts_file = os.path.join(outs_path, file)
             
             # Create output directories
             output_dir = os.path.join(output_base_dir, sample_name, 'QC_metrics')
             os.makedirs(output_dir, exist_ok=True)
         
             # Load the data
-            adata = squidpy.read.visium(path=sample_path, counts_file=counts_file)
+            adata = squidpy.read.visium(path=outs_path, counts_file=counts_file)
             adata.var_names_make_unique()
             # Basic QC metrics
             adata.var['mt'] = adata.var_names.str.startswith('MT-')  # Identify mitochondrial genes
