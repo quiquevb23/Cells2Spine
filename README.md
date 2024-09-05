@@ -22,7 +22,7 @@ Steps for spatial data analysis:
 - Integration of all datasets (or only of those from same condition)
 - QC metrics and optional additional filtering, normalization, dimensionality reduction and clustering:
 	- feature selection: HVGs vs SVGs
-	- clustering: non-spatial vs spatial
+	- clustering: non-spatial vs spatial (GraphST)
 - Spot deconvolution from single-cell data
 - Differential expression between clusters/spatial domains for one condition to identify markers for regions
 - ... (continue)

@@ -1,0 +1,18 @@
+- Project '~/Cells2Spine/Cells2Spine/Scripts/single-cell' loaded. [renv 1.0.7]
+- The project is out-of-sync -- use `renv::status()` for details.
+- The library is already synchronized with the lockfile.
+Processing sample: sci_mouse
+Total number of cells: 1845
+Number of cells after filtering of low quality cells: 1676
+DataFrame created from numpy array:
+Numpy array successfully converted and transferred to R.
+[1] "Reading data as matrix in R"
+[1] "Converting to SCE and running scDblFinder"
+[1] "Finish scDblFinder"
+[1] "Saving doublet results to output_dir"
+R_snippet executed
+Adding scores and classes to adata
+scDblFinder_class
+1    1609
+2      67
+Name: count, dtype: int64

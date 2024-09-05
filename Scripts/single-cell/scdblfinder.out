@@ -1,0 +1,6 @@
+- The project is out-of-sync -- use `renv::status()` for details.
+- The library is already synchronized with the lockfile.
+[1] "Starting R script for scDblFinder analysis."
+[1] "Found 1 samples to process."
+[1] "Processing sample directory: /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/matrices//sci_mouse"
+[1] "Processing CSV file: /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/matrices//sci_mouse/sci_mouse_data_mat.csv"

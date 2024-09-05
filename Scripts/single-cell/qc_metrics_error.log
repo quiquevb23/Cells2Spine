@@ -1,0 +1,2 @@
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1820: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
