@@ -1,0 +1,8 @@
+outlier
+False    1835
+True       10
+Name: count, dtype: int64
+mt_outlier
+False    1685
+True      160
+Name: count, dtype: int64

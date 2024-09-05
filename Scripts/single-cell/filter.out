@@ -1,0 +1,6 @@
+Processing sample: sci_mouse
+Total number of cells: 1845
+Number of cells after filtering of low-quality cells: 1676
+Number of NaN values in data_mat: 0
+Data saved to /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/matrices/sci_mouse/sci_mouse_data_mat.csv
+AnnData object saved to /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/matrices/sci_mouse/sci_mouse_filter-low-quality.h5ad

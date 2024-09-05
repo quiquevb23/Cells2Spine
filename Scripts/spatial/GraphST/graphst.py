@@ -11,10 +11,11 @@ from GraphST import GraphST
 device = torch.device('cuda:1' if torch.cuda.is_available() else 'cpu')
 
 # the location of R, which is necessary for mclust algorithm. Please replace it with local R installation path
-os.environ['R_HOME'] = '/home/quiquevb/.conda/envs/GraphST/bin'
+os.environ['R_HOME'] = '/home/quiquevb/.conda/envs/graphst/lib/R'
 
 #read data
 file_fold = '/storage/gge/Quique/Yadav/spatial_data'
+output_dir = '/storage/gge/Quique/Yadav/spatial_data/Output'
 
 adata = sc.read_h5ad(file_fold + '/combined_slices.h5ad')
 adata.var_names_make_unique()
@@ -26,6 +27,19 @@ ax = sc.pl.embedding(adata, basis='spatial',
                 color='slice',
                 show=False)
 ax.set_title('Aligned image')
+
+### Plotting UMAP before batch effect correction
+sc.pp.normalize_total(adata)
+sc.pp.log1p(adata)
+sc.pp.pca(adata)
+
+sc.pp.neighbors(adata, use_rep='X_pca', n_neighbors=10, n_pcs=40)
+sc.tl.umap(adata)
+sc.pl.umap(adata, color='slice', title='Uncorrected',
+                  show=False)
+
+plt.savefig(os.path.join(output_dir, "UMAP_no_batch_correction.png"))
+
 #ax.axis('off')
 
 
