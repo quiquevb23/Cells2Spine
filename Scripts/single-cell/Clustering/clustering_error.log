@@ -1,0 +1,20 @@
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:86: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(adata, flavor="leidenalg", n_iterations=-1, resolution=0.2, key_added="leiden_0.2")
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Clustering/clustering.py:127: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  cluster_stats = adata.obs.groupby(cluster_key).agg(

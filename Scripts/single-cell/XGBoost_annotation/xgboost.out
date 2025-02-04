@@ -1,0 +1,50 @@
+{'Astrocytes': 0, 'B cells': 1, 'Dorsal': 2, 'Ependymal cells': 3, 'Mature oligodendrocytes (MOL)': 4, 'Microglia': 5, 'Myelin forming oligodendrocytes (MFOL)': 6, 'Myeloid, dividing': 7, 'NK, T cells': 8, 'Newly formed oligodendrocytes (NFOL)': 9, 'Oligodendrocytes precursor cells (OPC)': 10, 'Peripheral immune cells': 11, 'Vascular cells': 12, 'Vascular endothelial cells': 13, 'Ventral': 14}
+Baseline model saved
+Best model saved
+                                        precision    recall  f1-score   support
+
+                            Astrocytes       1.00      1.00      1.00       140
+                               B cells       0.94      1.00      0.97        16
+                                Dorsal       1.00      1.00      1.00      1102
+                       Ependymal cells       0.97      0.92      0.94        36
+         Mature oligodendrocytes (MOL)       0.94      0.94      0.94       985
+                             Microglia       0.97      0.98      0.98       120
+Myelin forming oligodendrocytes (MFOL)       0.94      0.96      0.95      1440
+                     Myeloid, dividing       0.00      0.00      0.00         1
+                           NK, T cells       1.00      0.62      0.77         8
+  Newly formed oligodendrocytes (NFOL)       0.85      0.64      0.73       119
+Oligodendrocytes precursor cells (OPC)       0.96      0.96      0.96       190
+               Peripheral immune cells       0.64      0.78      0.70         9
+                        Vascular cells       0.95      0.98      0.96       138
+            Vascular endothelial cells       0.99      0.92      0.95        76
+                               Ventral       0.99      0.99      0.99       611
+
+                              accuracy                           0.96      4991
+                             macro avg       0.88      0.85      0.86      4991
+                          weighted avg       0.96      0.96      0.96      4991
+
+{'Astrocytes': 0, 'B cells': 1, 'Dorsal': 2, 'Ependymal cells': 3, 'Mature oligodendrocytes (MOL)': 4, 'Microglia': 5, 'Myelin forming oligodendrocytes (MFOL)': 6, 'Myeloid, dividing': 7, 'NK, T cells': 8, 'Newly formed oligodendrocytes (NFOL)': 9, 'Oligodendrocytes precursor cells (OPC)': 10, 'Peripheral immune cells': 11, 'Vascular cells': 12, 'Vascular endothelial cells': 13, 'Ventral': 14}
+Baseline model saved
+Best model saved
+                                        precision    recall  f1-score   support
+
+                            Astrocytes       0.99      1.00      0.99       486
+                               B cells       0.94      0.84      0.89        19
+                                Dorsal       1.00      0.99      0.99      1287
+                       Ependymal cells       0.99      1.00      0.99        89
+         Mature oligodendrocytes (MOL)       0.95      0.92      0.94      1225
+                             Microglia       0.93      0.98      0.95      1723
+Myelin forming oligodendrocytes (MFOL)       0.93      0.96      0.95      1933
+                     Myeloid, dividing       0.86      0.11      0.20        53
+                           NK, T cells       0.92      0.78      0.84        58
+  Newly formed oligodendrocytes (NFOL)       0.95      0.90      0.93       580
+Oligodendrocytes precursor cells (OPC)       0.97      0.96      0.97       436
+               Peripheral immune cells       0.88      0.83      0.85       522
+                        Vascular cells       0.99      0.98      0.99       713
+            Vascular endothelial cells       0.95      0.93      0.94       138
+                               Ventral       0.99      0.99      0.99       664
+
+                              accuracy                           0.95      9926
+                             macro avg       0.95      0.88      0.89      9926
+                          weighted avg       0.95      0.95      0.95      9926
+

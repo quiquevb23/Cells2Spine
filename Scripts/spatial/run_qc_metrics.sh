@@ -9,10 +9,11 @@
 #SBATCH --mem-per-cpu=8G
 #SBATCH --qos=medium
 
+source /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/config_spatial.sh
 
 module load anaconda
 #export PYTHONNOUSERSITE="literallyanyletters"
 conda activate squidpy-env
 
-python3 qc_metrics.py
+python3 qc_metrics.py --base_dir "$BASE_DIR" --output_base_dir "$OUTPUT_BASE_DIR"
 

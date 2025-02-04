@@ -1,0 +1,134 @@
+R[write to console]: 
+Attaching package: ‘renv’
+
+
+R[write to console]: The following objects are masked from ‘package:stats’:
+
+    embed, update
+
+
+R[write to console]: The following objects are masked from ‘package:utils’:
+
+    history, upgrade
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    autoload, load, remove
+
+
+R[write to console]: Loading required package: SummarizedExperiment
+
+R[write to console]: Loading required package: MatrixGenerics
+
+R[write to console]: Loading required package: matrixStats
+
+R[write to console]: 
+Attaching package: ‘MatrixGenerics’
+
+
+R[write to console]: The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+
+R[write to console]: Loading required package: GenomicRanges
+
+R[write to console]: Loading required package: stats4
+
+R[write to console]: Loading required package: BiocGenerics
+
+R[write to console]: 
+Attaching package: ‘BiocGenerics’
+
+
+R[write to console]: The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+R[write to console]: Loading required package: S4Vectors
+
+R[write to console]: 
+Attaching package: ‘S4Vectors’
+
+
+R[write to console]: The following object is masked from ‘package:utils’:
+
+    findMatches
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+R[write to console]: Loading required package: IRanges
+
+R[write to console]: Loading required package: GenomeInfoDb
+
+R[write to console]: Loading required package: Biobase
+
+R[write to console]: Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+R[write to console]: 
+Attaching package: ‘Biobase’
+
+
+R[write to console]: The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+
+R[write to console]: The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+Traceback (most recent call last):
+  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/SingleR/singleR_script.py", line 167, in <module>
+    annotate_with_singleR(adata, sample_name, single_cell_ref_h5, model_dir, output_dir, sample_path)
+  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/SingleR/singleR_script.py", line 103, in annotate_with_singleR
+    query_matrix = query_matrix.loc[common_genes, :]
+  File "/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/pandas/core/indexing.py", line 1178, in __getitem__
+    check_dict_or_set_indexers(key)
+  File "/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/pandas/core/indexing.py", line 2774, in check_dict_or_set_indexers
+    raise TypeError(
+TypeError: Passing a set as an indexer is not supported. Use a list instead.

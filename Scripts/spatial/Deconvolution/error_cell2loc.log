@@ -1,0 +1,216 @@
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/_settings.py:63: UserWarning: Since v1.0.0, scvi-tools no longer uses a random seed by default. Run `scvi.settings.seed = 0` to reproduce results from previous versions.
+  self.seed = seed
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/_settings.py:70: UserWarning: Setting `dl_pin_memory_gpu_training` is deprecated in v1.0 and will be removed in v1.1. Please pass in `pin_memory` to the data loaders instead.
+  self.dl_pin_memory_gpu_training = (
+2024-11-22 11:24:58.630014: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcudart.so.11.0'; dlerror: libcudart.so.11.0: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /storage/apps/OPENMPI/4.1.4/lib:/opt/ohpc/pub/compiler/gcc/9.4.0/lib64
+2024-11-22 11:25:08.987619: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /storage/apps/OPENMPI/4.1.4/lib:/opt/ohpc/pub/compiler/gcc/9.4.0/lib64
+2024-11-22 11:25:08.988800: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /storage/apps/OPENMPI/4.1.4/lib:/opt/ohpc/pub/compiler/gcc/9.4.0/lib64
+2024-11-22 11:25:08.988820: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/anndata/__init__.py:51: FutureWarning: `anndata.read` is deprecated, use `anndata.read_h5ad` instead. `ad.read` will be removed in mid 2024.
+  warnings.warn(
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1906: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1908: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1906: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1908: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1906: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1908: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/pandas/core/arraylike.py:396: RuntimeWarning: divide by zero encountered in log10
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/abc.py:119: FutureWarning: SparseDataset is deprecated and will be removed in late 2024. It has been replaced by the public classes CSRDataset and CSCDataset.
+
+For instance checks, use `isinstance(X, (anndata.experimental.CSRDataset, anndata.experimental.CSCDataset))` instead.
+
+For creation, use `anndata.experimental.sparse_dataset(X)` instead.
+
+  return _abc_instancecheck(cls, instance)
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/data/fields/_dataframe_field.py:189: UserWarning: Category 0 in adata.obs['_scvi_labels'] has fewer than 3 cells. Models may not train properly.
+  categorical_mapping = _make_column_categorical(
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/train/_trainrunner.py:76: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  accelerator, lightning_devices, device = parse_device_args(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=250` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/model/base/_pyromixin.py:388: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  _, _, device = parse_device_args(
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/pandas/core/arraylike.py:396: RuntimeWarning: divide by zero encountered in log10
+  result = getattr(ufunc, method)(*inputs, **kwargs)
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/train/_trainrunner.py:76: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  accelerator, lightning_devices, device = parse_device_args(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=250` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/model/base/_pyromixin.py:388: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  _, _, device = parse_device_args(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_steps=1` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/abc.py:119: FutureWarning: SparseDataset is deprecated and will be removed in late 2024. It has been replaced by the public classes CSRDataset and CSCDataset.
+
+For instance checks, use `isinstance(X, (anndata.experimental.CSRDataset, anndata.experimental.CSCDataset))` instead.
+
+For creation, use `anndata.experimental.sparse_dataset(X)` instead.
+
+  return _abc_instancecheck(cls, instance)
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/train/_trainrunner.py:76: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  accelerator, lightning_devices, device = parse_device_args(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/loops/fit_loop.py:281: The number of training batches (1) is smaller than the logging interval Trainer(log_every_n_steps=10). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=10000` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/model/base/_pyromixin.py:388: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  _, _, device = parse_device_args(
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_4/CoLocatedGroupsSklearnNMF_559locations_44factors/spatial/showcell_density_mean_n_fact11_sSpatial_4_p99.2.pdf
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_4/CoLocatedGroupsSklearnNMF_559locations_44factors/spatial/showcell_density_mean_n_fact12_sSpatial_4_p99.2.pdf
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/data/fields/_dataframe_field.py:227: UserWarning: Category 0 in adata.obs['_scvi_labels'] has fewer than 3 cells. Models may not train properly.
+  new_mapping = _make_column_categorical(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_steps=1` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/train/_trainrunner.py:76: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  accelerator, lightning_devices, device = parse_device_args(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/loops/fit_loop.py:281: The number of training batches (1) is smaller than the logging interval Trainer(log_every_n_steps=10). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=10000` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/model/base/_pyromixin.py:388: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  _, _, device = parse_device_args(
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_2/CoLocatedGroupsSklearnNMF_625locations_44factors/spatial/showcell_density_mean_n_fact11_sSpatial_2_p99.2.pdf
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_2/CoLocatedGroupsSklearnNMF_625locations_44factors/spatial/showcell_density_mean_n_fact12_sSpatial_2_p99.2.pdf
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_steps=1` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/train/_trainrunner.py:76: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  accelerator, lightning_devices, device = parse_device_args(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/loops/fit_loop.py:281: The number of training batches (1) is smaller than the logging interval Trainer(log_every_n_steps=10). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=10000` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/model/base/_pyromixin.py:388: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  _, _, device = parse_device_args(
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_3/CoLocatedGroupsSklearnNMF_564locations_44factors/spatial/showcell_density_mean_n_fact11_sSpatial_3_p99.2.pdf
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_3/CoLocatedGroupsSklearnNMF_564locations_44factors/spatial/showcell_density_mean_n_fact12_sSpatial_3_p99.2.pdf
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/data/fields/_dataframe_field.py:227: UserWarning: Category 0 in adata.obs['_scvi_labels'] has fewer than 3 cells. Models may not train properly.
+  new_mapping = _make_column_categorical(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_steps=1` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/train/_trainrunner.py:76: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  accelerator, lightning_devices, device = parse_device_args(
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/trainer/configuration_validator.py:69: You passed in a `val_dataloader` but have no `validation_step`. Skipping val loop.
+SLURM auto-requeueing enabled. Setting signal handlers.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/lightning/pytorch/loops/fit_loop.py:281: The number of training batches (1) is smaller than the logging interval Trainer(log_every_n_steps=10). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=10000` reached.
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/scvi/model/base/_pyromixin.py:388: UserWarning: `use_gpu` is deprecated in v1.0 and will be removed in v1.1. Please use `accelerator` and `devices` instead.
+  _, _, device = parse_device_args(
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_1/CoLocatedGroupsSklearnNMF_569locations_44factors/spatial/showcell_density_mean_n_fact11_sSpatial_1_p99.2.pdf
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2829: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[:, None]
+/home/quiquevb/.conda/envs/cell2loc_env/lib/python3.9/site-packages/numpy/lib/function_base.py:2830: RuntimeWarning: invalid value encountered in true_divide
+  c /= stddev[None, :]
+WARNING: saving figure to file /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/Deconvolution/cell2location_map/CoLocatedComb_Spatial_1/CoLocatedGroupsSklearnNMF_569locations_44factors/spatial/showcell_density_mean_n_fact12_sSpatial_1_p99.2.pdf

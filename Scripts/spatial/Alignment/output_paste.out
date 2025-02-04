@@ -1,0 +1,32 @@
+Using selected backend cpu. If you want to use gpu, set use_gpu = True.
+Using selected backend cpu. If you want to use gpu, set use_gpu = True.
+Using selected backend cpu. If you want to use gpu, set use_gpu = True.
+Runtime: 13.536231756210327
+Adata alignment coordinates for slice 0:
+[[  577.634171    -699.65666924]
+ [ 2157.106171     382.61273076]
+ [  886.606171    -871.95866924]
+ [  431.421871     299.33733076]
+ [-1312.911829     761.02133076]]
+Saved aligned new_slice_1 to /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/paste_aligned/aligned_adata_1.h5ad
+Adata alignment coordinates for slice 1:
+[[-2407.8431978   -489.25486391]
+ [-1769.6719653    772.35619876]
+ [-2348.05173381   332.36253362]
+ [ -930.53324888  1604.75121454]
+ [ 1322.74744731  -847.11041923]]
+Saved aligned new_slice_2 to /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/paste_aligned/aligned_adata_2.h5ad
+Adata alignment coordinates for slice 2:
+[[   76.74439156  -469.24270798]
+ [ 1934.92774915     7.52235591]
+ [-1016.78986868  1581.69168574]
+ [ 2168.78867015  -274.40903667]
+ [  688.23659592  2038.31205351]]
+Saved aligned new_slice_3 to /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/paste_aligned/aligned_adata_3.h5ad
+Adata alignment coordinates for slice 3:
+[[ 2.69912118e+02  5.47062987e+02]
+ [-1.99419704e+03  1.66584339e-01]
+ [ 2.16838811e+03  5.95614233e+02]
+ [-1.39094143e+03  1.51549644e+03]
+ [ 5.87471281e+02 -1.39340629e+03]]
+Saved aligned new_slice_4 to /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/paste_aligned/aligned_adata_4.h5ad

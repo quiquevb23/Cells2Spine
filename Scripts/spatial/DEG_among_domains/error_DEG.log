@@ -1,0 +1,12 @@
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_among_domains/DEG_dorsal_good.py:308: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = df.T.groupby(metadata['sample']).sum().T  # Transpose before groupby, then transpose back
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_among_domains/DEG_dorsal_good.py:331: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  pseudobulk_metadata["condition"] = metadata.groupby("sample")["condition"].first().values
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+R[write to console]: Using classic mode.
+

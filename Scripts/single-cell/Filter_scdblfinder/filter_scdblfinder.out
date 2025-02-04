@@ -1,0 +1,38 @@
+- Project '~/Cells2Spine/Cells2Spine/Scripts/single-cell' loaded. [renv 1.0.7]
+- The library is already synchronized with the lockfile.
+Processing sample: Sample_1
+Total number of cells: 56051
+Number of cells after filtering of low quality cells: 55970
+Number of cells after filtering those with > 5% pct_mt_counts: 55718
+Is sparse
+DataFrame created from numpy array:
+Numpy array successfully converted and transferred to R.
+[1] "Reading data as matrix in R"
+[1] "Converting to SCE and running scDblFinder"
+[1] "Finish scDblFinder"
+[1] "Saving doublet results to output_dir"
+R_snippet executed
+(55718, 26712)
+Adding scores and classes to adata
+scDblFinder_class
+1    41231
+2    14487
+Name: count, dtype: int64
+Processing sample: Sample_3
+Total number of cells: 61589
+Number of cells after filtering of low quality cells: 61207
+Number of cells after filtering those with > 5% pct_mt_counts: 60785
+Is sparse
+DataFrame created from numpy array:
+Numpy array successfully converted and transferred to R.
+[1] "Reading data as matrix in R"
+[1] "Converting to SCE and running scDblFinder"
+[1] "Finish scDblFinder"
+[1] "Saving doublet results to output_dir"
+R_snippet executed
+(60785, 26818)
+Adding scores and classes to adata
+scDblFinder_class
+1    43568
+2    17217
+Name: count, dtype: int64

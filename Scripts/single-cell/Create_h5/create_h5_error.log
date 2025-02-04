@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/create_h5.py", line 46, in <module>
+    var=pd.DataFrame(index=features[:, 1])  # Assuming feature names are in the second column
+                           ~~~~~~~~^^^^^^
+IndexError: index 1 is out of bounds for axis 1 with size 1

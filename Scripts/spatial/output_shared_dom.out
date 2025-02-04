@@ -1,0 +1,29 @@
+Size of adata_combined_healthy: (1194, 16920)
+(1194, 50)
+Begin to train ST data...
+- Project '~/Cells2Spine/Cells2Spine/Scripts/spatial' loaded. [renv 1.0.9]
+Optimization finished for ST data!
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+healthy
+injured
+healthy
+healthy
+healthy
+injured
+healthy
+healthy
+Size of adata_combined_injured: (1123, 17210)
+(1123, 50)
+Begin to train ST data...
+Optimization finished for ST data!
+fitting ...
+  |                                                                              |                                                                      |   0%  |                                                                              |===================================                                   |  50%  |                                                                              |======================================================================| 100%
+injured
+injured
+injured
+healthy
+injured
+injured
+injured
+healthy

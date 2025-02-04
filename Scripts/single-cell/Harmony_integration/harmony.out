@@ -1,0 +1,14 @@
+(24424, 19042)
+(14728, 19290)
+Size of adata_combined before filtering out cells with 0 counts: (39152, 17595)
+Size of adata_combined after filtering out cells with 0 counts: (39152, 17580)
+Adata.raw exists
+(39152, 17580)
+AnnData object with n_obs × n_vars = 39152 × 17580
+    obs: 'n_genes_by_counts', 'log1p_n_genes_by_counts', 'total_counts', 'log1p_total_counts', 'pct_counts_in_top_50_genes', 'pct_counts_in_top_100_genes', 'pct_counts_in_top_200_genes', 'pct_counts_in_top_500_genes', 'total_counts_mt', 'log1p_total_counts_mt', 'pct_counts_mt', 'total_counts_ribo', 'log1p_total_counts_ribo', 'pct_counts_ribo', 'total_counts_hb', 'log1p_total_counts_hb', 'pct_counts_hb', 'outlier', 'mt_outlier', 'ribo_outlier', 'total_counts_category', 'scDblFinder_score', 'scDblFinder_class', 'sample', 'n_counts'
+    var: 'n_counts', 'highly_variable', 'means', 'dispersions', 'dispersions_norm', 'mean', 'std'
+    uns: 'log1p', 'hvg', 'pca', 'sample_colors'
+    obsm: 'X_pca'
+    varm: 'PCs'
+    layers: 'counts'
+(39152, 50)

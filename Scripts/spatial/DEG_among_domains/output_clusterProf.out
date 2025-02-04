@@ -1,0 +1,92 @@
+- Project '~/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_among_domains' loaded. [renv 1.0.11]
+- The library is already synchronized with the lockfile.
+GO Enrichment for Upregulated Genes (BP):
+<bound method NDFrame.head of                     ID  ... Count
+GO:0002274  GO:0002274  ...    39
+GO:0002443  GO:0002443  ...    44
+GO:0050866  GO:0050866  ...    32
+GO:0030099  GO:0030099  ...    46
+GO:0002697  GO:0002697  ...    43
+...                ...  ...   ...
+GO:0060285  GO:0060285  ...     1
+GO:0009060  GO:0009060  ...     1
+GO:0051321  GO:0051321  ...     2
+GO:0003341  GO:0003341  ...     1
+GO:0031047  GO:0031047  ...     2
+
+[4561 rows x 9 columns]>
+GO Enrichment for Upregulated Genes (CC):
+<bound method NDFrame.head of                     ID  ... Count
+GO:0022626  GO:0022626  ...    28
+GO:0022625  GO:0022625  ...    19
+GO:0044391  GO:0044391  ...    30
+GO:0062023  GO:0062023  ...    30
+GO:0031012  GO:0031012  ...    36
+...                ...  ...   ...
+GO:0034703  GO:0034703  ...     1
+GO:0019866  GO:0019866  ...     5
+GO:0000228  GO:0000228  ...     1
+GO:0098798  GO:0098798  ...     1
+GO:0005759  GO:0005759  ...     1
+
+[421 rows x 9 columns]>
+GO Enrichment for Upregulated Genes (MF):
+<bound method NDFrame.head of                     ID  ... Count
+GO:0043394  GO:0043394  ...    14
+GO:0005539  GO:0005539  ...    25
+GO:0003735  GO:0003735  ...    29
+GO:0005178  GO:0005178  ...    20
+GO:0038024  GO:0038024  ...    13
+...                ...  ...   ...
+GO:0061659  GO:0061659  ...     3
+GO:0140993  GO:0140993  ...     1
+GO:0004842  GO:0004842  ...     4
+GO:0019787  GO:0019787  ...     4
+GO:0016755  GO:0016755  ...     4
+
+[690 rows x 9 columns]>
+GO Enrichment for Downregulated Genes (BP):
+<bound method NDFrame.head of                     ID  ... Count
+GO:0016126  GO:0016126  ...    16
+GO:0006695  GO:0006695  ...    15
+GO:1902653  GO:1902653  ...    15
+GO:0046165  GO:0046165  ...    19
+GO:0008203  GO:0008203  ...    18
+...                ...  ...   ...
+GO:0045088  GO:0045088  ...     1
+GO:1903706  GO:1903706  ...     1
+GO:0002697  GO:0002697  ...     1
+GO:0030098  GO:0030098  ...     1
+GO:0000280  GO:0000280  ...     1
+
+[2823 rows x 9 columns]>
+GO Enrichment for Downregulated Genes (CC):
+<bound method NDFrame.head of                     ID  ... Count
+GO:0043209  GO:0043209  ...     9
+GO:0044304  GO:0044304  ...     9
+GO:0055038  GO:0055038  ...     7
+GO:0005777  GO:0005777  ...     8
+GO:0042579  GO:0042579  ...     8
+...                ...  ...   ...
+GO:0030016  GO:0030016  ...     1
+GO:0043292  GO:0043292  ...     1
+GO:0098798  GO:0098798  ...     1
+GO:0005667  GO:0005667  ...     2
+GO:0005840  GO:0005840  ...     1
+
+[320 rows x 9 columns]>
+GO Enrichment for Downregulated Genes (MF):
+<bound method NDFrame.head of                     ID  ... Count
+GO:0019911  GO:0019911  ...     5
+GO:0015631  GO:0015631  ...    17
+GO:0016717  GO:0016717  ...     4
+GO:0035612  GO:0035612  ...     3
+GO:0016405  GO:0016405  ...     4
+...                ...  ...   ...
+GO:1901681  GO:1901681  ...     1
+GO:0005126  GO:0005126  ...     1
+GO:0005216  GO:0005216  ...     2
+GO:0004175  GO:0004175  ...     2
+GO:0140098  GO:0140098  ...     1
+
+[483 rows x 9 columns]>

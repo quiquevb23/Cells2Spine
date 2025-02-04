@@ -1,0 +1,32 @@
+- Project '~/Cells2Spine/Cells2Spine/Scripts/spatial' loaded. [renv 1.0.9]
+- The library is already synchronized with the lockfile.
+Processing sample Spatial_4 with size: (559, 39537)
+(559, 18543)
+Is sparse
+
+    WARNING: The R package "reticulate" only fixed recently
+    an issue that caused a segfault when used with rpy2:
+    https://github.com/rstudio/reticulate/pull/1188
+    Make sure that you use a version of that package that includes
+    the fix.
+    R_snippet executed
+SCTransform normalization added to AnnData
+Processed and saved sample: Spatial_4
+Processing sample Spatial_2 with size: (625, 39537)
+(625, 18150)
+Is sparse
+R_snippet executed
+SCTransform normalization added to AnnData
+Processed and saved sample: Spatial_2
+Processing sample Spatial_3 with size: (564, 39537)
+(564, 18464)
+Is sparse
+R_snippet executed
+SCTransform normalization added to AnnData
+Processed and saved sample: Spatial_3
+Processing sample Spatial_1 with size: (569, 39537)
+(569, 18179)
+Is sparse
+R_snippet executed
+SCTransform normalization added to AnnData
+Processed and saved sample: Spatial_1

@@ -5,9 +5,9 @@
 #SBATCH --error=cellbender_error.log
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=8
-#SBATCH --time=6-00:00:00
+#SBATCH --time=15-00:00:00
 #SBATCH --mem-per-cpu=10G
-#SBATCH --qos=medium
+#SBATCH --qos=long
 
 
 module load anaconda

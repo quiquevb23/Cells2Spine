@@ -1,0 +1,117 @@
+Processing sample Spatial_4
+The indices match!
+Successfully assigned the selected columns from deconv_file.obs to adata.obs.
+count    559.000000
+mean       0.513549
+std        1.011164
+min        0.005759
+25%        0.046412
+50%        0.105198
+75%        0.384252
+max        6.134304
+Name: Macrophages, chemotaxis-inducing, dtype: float64
+AAACGAGACGGTTGAT-1    0.109378
+AAAGGGATGTAGCAAG-1    0.064276
+AAAGTTGACTCCCGTA-1    0.156561
+AAATTAACGGGTAGCT-1    0.018578
+AAATTACCTATCGATG-1    0.154762
+Name: Macrophages, chemotaxis-inducing, dtype: float64
+90th Quantile: 1.4958376514911642
+95th Quantile: 3.0952547132968933
+Processing sample Spatial_2
+The indices match!
+Successfully assigned the selected columns from deconv_file.obs to adata.obs.
+Processing sample Spatial_3
+The indices match!
+Successfully assigned the selected columns from deconv_file.obs to adata.obs.
+count    564.000000
+mean       0.331183
+std        0.877785
+min        0.003018
+25%        0.028980
+50%        0.074375
+75%        0.183529
+max        8.071572
+Name: Macrophages, chemotaxis-inducing, dtype: float64
+AAACGAGACGGTTGAT-1    0.161629
+AAACTGCTGGCTCCAA-1    0.027966
+AAAGGGATGTAGCAAG-1    0.006454
+AAATACCTATAAGCAT-1    0.378391
+AAATGGTCAATGTGCC-1    0.204380
+Name: Macrophages, chemotaxis-inducing, dtype: float64
+90th Quantile: 0.6282244092226028
+95th Quantile: 1.8554990258812927
+Processing sample Spatial_1
+The indices match!
+Successfully assigned the selected columns from deconv_file.obs to adata.obs.
+Transposing count matrix to match (genes, samples) format.
+Initial df shape: (16134, 128)
+First few rows of df:
+              AATCTGCGTTGGGACG-1  ...  TTATGAATGAAAGGGA-1
+LOC108349479                 0.0  ...                 0.0
+LOC102556098                 0.0  ...                 0.0
+LOC103690937                 0.0  ...                 0.0
+LOC108348623                 0.0  ...                 0.0
+Lrp11                        0.0  ...                 0.0
+
+[5 rows x 128 columns]
+Metadata shape: (128, 2)
+                       sample condition
+AATCTGCGTTGGGACG-1  Spatial_4   injured
+AGAATTATGGATTCGA-1  Spatial_4   injured
+AGGGTGCTCTCGAGGG-1  Spatial_4   injured
+ATTGATGAGTCCTAAC-1  Spatial_4   injured
+CACACGCGCTGTCTTA-1  Spatial_4   injured
+      sample condition
+0  Spatial_1   healthy
+1  Spatial_2   healthy
+2  Spatial_3   injured
+3  Spatial_4   injured
+counts shape and columns:
+(4, 16134)
+Index(['LOC108349479', 'LOC102556098', 'LOC103690937', 'LOC108348623', 'Lrp11',
+       'Pcmt1', 'Nup43', 'Lats1', 'Katna1', 'Ginm1',
+       ...
+       'Trnd', 'Trnk', 'Trng', 'Trnr', 'Trnh', 'Trns2', 'Trnl2', 'Trne',
+       'Trnt', 'Trnp'],
+      dtype='object', length=16134)
+Pseudobulk obs head:
+      sample condition
+0  Spatial_1   healthy
+1  Spatial_2   healthy
+2  Spatial_3   injured
+3  Spatial_4   injured
+Sample conditions: [1] healthy healthy injured injured
+Levels: healthy injured
+
+design_matrix
+[[1. 0.]
+ [1. 0.]
+ [1. 1.]
+ [1. 1.]]
+Condition levels: ['healthy' 'injured']
+Counts before filtering:
+[[ 0.  0.  0.  1.]
+ [ 0.  0.  0.  8.]
+ [ 0.  0.  2.  7.]
+ ...
+ [ 5.  0. 21.  4.]
+ [ 3.  0. 12.  3.]
+ [ 7.  2. 42. 18.]]
+Number of genes retained after filtering: 6688
+Total number of genes before filtering: 16134
+Counts after filtering:
+[[ 6.  1. 22. 22.]
+ [34.  9. 71. 67.]
+ [ 3.  0. 31. 30.]
+ ...
+ [ 6.  3. 58. 26.]
+ [ 5.  0. 21.  4.]
+ [ 7.  2. 42. 18.]]
+         genes     logFC     logCPM        PValue           FDR
+Gpnmb    Gpnmb  7.020859  11.724294  1.371810e-35  9.174664e-32
+Spp1      Spp1  7.179206   9.959810  2.180776e-31  7.292516e-28
+Hmgcs1  Hmgcs1 -4.553342   9.487837  2.463886e-23  5.492823e-20
+Cd68      Cd68  7.585203   8.990887  1.886644e-22  3.154469e-19
+Ifitm1  Ifitm1  6.916600   9.300504  6.598362e-21  8.825969e-18
+Results saved to /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/spatial/DEA_dorsal/DEA_dorsal_pseudobulk.csv

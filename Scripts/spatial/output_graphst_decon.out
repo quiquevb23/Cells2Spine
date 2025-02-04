@@ -1,0 +1,15 @@
+Processing sample: Spatial_4
+Number of overlap genes: 806
+Begin to train ST data...
+Optimization finished for ST data!
+Begin to train scRNA data...
+Optimization finished for cell representation learning!
+Begin to learn mapping matrix...
+Mapping matrix learning finished!
+[[0.00179306 0.00179298 0.00178515 ... 0.00178896 0.00179248 0.00180381]
+ [0.00179906 0.00180007 0.00179663 ... 0.00178958 0.00178874 0.00178865]
+ [0.00178539 0.00179236 0.00178602 ... 0.00179515 0.00179858 0.00178327]
+ ...
+ [0.00179388 0.00178108 0.0017809  ... 0.00178765 0.00179359 0.00179841]
+ [0.00178983 0.00178054 0.0017911  ... 0.00178783 0.00178269 0.00179065]
+ [0.00178997 0.00179878 0.00180379 ... 0.00177751 0.00177372 0.00177282]]

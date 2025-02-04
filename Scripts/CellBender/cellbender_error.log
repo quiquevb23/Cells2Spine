@@ -1,0 +1,866 @@
+cellbender:remove-background: Command:
+cellbender remove-background --input /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/raw_feature_bc_matrix.h5 --output /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered.h5
+cellbender:remove-background: CellBender 0.3.0
+cellbender:remove-background: (Workflow hash c4b87545db)
+cellbender:remove-background: 2025-01-27 12:42:18
+cellbender:remove-background: Running remove-background
+cellbender:remove-background: Loading data from /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/raw_feature_bc_matrix.h5
+cellbender:remove-background: CellRanger v3 format
+cellbender:remove-background: Features in dataset: 39537 Gene Expression
+cellbender:remove-background: Trimming features for inference.
+cellbender:remove-background: 26306 features have nonzero counts.
+cellbender:remove-background: Prior on counts for cells is 2103
+cellbender:remove-background: Prior on counts for empty droplets is 219
+cellbender:remove-background: Excluding 5076 features that are estimated to have <= 0.1 background counts in cells.
+cellbender:remove-background: Including 21230 features in the analysis.
+cellbender:remove-background: Trimming barcodes for inference.
+cellbender:remove-background: Excluding barcodes with counts below 109
+cellbender:remove-background: Using 12812 probable cell barcodes, plus an additional 28257 barcodes, and 117486 empty droplets.
+cellbender:remove-background: Largest surely-empty droplet has 242 UMI counts.
+cellbender:remove-background: Attempting to unpack tarball "ckpt.tar.gz" to /tmp/tmpyb39q5nc
+cellbender:remove-background: Successfully unpacked tarball to /tmp/tmpyb39q5nc
+/tmp/tmpyb39q5nc/9a762fbad1_random.pyro
+/tmp/tmpyb39q5nc/9a762fbad1_model.torch
+/tmp/tmpyb39q5nc/9a762fbad1_optim.torch
+/tmp/tmpyb39q5nc/9a762fbad1_optim.pyro
+/tmp/tmpyb39q5nc/9a762fbad1_params.pyro
+/tmp/tmpyb39q5nc/9a762fbad1_train.loaderstate
+/tmp/tmpyb39q5nc/9a762fbad1_test.loaderstate
+/tmp/tmpyb39q5nc/9a762fbad1_args.npy
+cellbender:remove-background: Workflow hash does not match that of checkpoint.
+cellbender:remove-background: No checkpoint loaded.
+cellbender:remove-background: Running inference...
+cellbender:remove-background: [epoch 001]  average training loss: 4551.4526
+cellbender:remove-background: [epoch 002]  average training loss: 3749.8228  (2485.1 seconds per epoch)
+cellbender:remove-background: Will checkpoint every 1 epochs
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 003]  average training loss: 3545.9561
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 004]  average training loss: 3501.1311
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 005]  average training loss: 3480.9038
+cellbender:remove-background: [epoch 005] average test loss: 3492.4052
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Could not save checkpoint
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 140, in save_checkpoint
+    make_tarball(files=file_list, tarball_name=tarball_name)
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 300, in make_tarball
+    os.rename(tarball_name + '.tmp', tarball_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'ckpt.tar.gz.tmp' -> 'ckpt.tar.gz'
+
+cellbender:remove-background: [epoch 006]  average training loss: 3476.3825
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 007]  average training loss: 3461.8889
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 008]  average training loss: 3455.0116
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 009]  average training loss: 3419.0975
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 010]  average training loss: 3289.9826
+cellbender:remove-background: [epoch 010] average test loss: 3313.4434
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 011]  average training loss: 3268.2686
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 012]  average training loss: 3239.1973
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 013]  average training loss: 3222.9890
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 014]  average training loss: 3205.3674
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 015]  average training loss: 3191.8476
+cellbender:remove-background: [epoch 015] average test loss: 3217.9515
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 016]  average training loss: 3179.0422
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 017]  average training loss: 3172.1517
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 018]  average training loss: 3167.4061
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Could not save checkpoint
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 140, in save_checkpoint
+    make_tarball(files=file_list, tarball_name=tarball_name)
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 300, in make_tarball
+    os.rename(tarball_name + '.tmp', tarball_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'ckpt.tar.gz.tmp' -> 'ckpt.tar.gz'
+
+cellbender:remove-background: [epoch 019]  average training loss: 3163.4943
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 020]  average training loss: 3157.0031
+cellbender:remove-background: [epoch 020] average test loss: 3176.7096
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 021]  average training loss: 3153.1327
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 022]  average training loss: 3150.2784
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 023]  average training loss: 3146.0959
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 024]  average training loss: 3143.5563
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 025]  average training loss: 3140.7958
+cellbender:remove-background: [epoch 025] average test loss: 3161.5905
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 026]  average training loss: 3139.1122
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 027]  average training loss: 3136.9023
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 028]  average training loss: 3135.2063
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 029]  average training loss: 3132.7396
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 030]  average training loss: 3129.5473
+cellbender:remove-background: [epoch 030] average test loss: 3142.9981
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 031]  average training loss: 3126.0878
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 032]  average training loss: 3123.5284
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 033]  average training loss: 3119.8314
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 034]  average training loss: 3116.4255
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 035]  average training loss: 3117.0148
+cellbender:remove-background: [epoch 035] average test loss: 3138.2261
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 036]  average training loss: 3116.0427
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 037]  average training loss: 3122.7467
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 038]  average training loss: 3129.0059
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 039]  average training loss: 3128.9098
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 040]  average training loss: 3123.9436
+cellbender:remove-background: [epoch 040] average test loss: 3144.0943
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 041]  average training loss: 3120.6929
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 042]  average training loss: 3116.5463
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 043]  average training loss: 3113.2320
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 044]  average training loss: 3109.7841
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 045]  average training loss: 3107.2749
+cellbender:remove-background: [epoch 045] average test loss: 3115.8636
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Could not save checkpoint
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 140, in save_checkpoint
+    make_tarball(files=file_list, tarball_name=tarball_name)
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 300, in make_tarball
+    os.rename(tarball_name + '.tmp', tarball_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'ckpt.tar.gz.tmp' -> 'ckpt.tar.gz'
+
+cellbender:remove-background: [epoch 046]  average training loss: 3106.2755
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Could not save checkpoint
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 140, in save_checkpoint
+    make_tarball(files=file_list, tarball_name=tarball_name)
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 300, in make_tarball
+    os.rename(tarball_name + '.tmp', tarball_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'ckpt.tar.gz.tmp' -> 'ckpt.tar.gz'
+
+cellbender:remove-background: [epoch 047]  average training loss: 3103.6576
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 048]  average training loss: 3101.3513
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 049]  average training loss: 3099.1783
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 050]  average training loss: 3098.5965
+cellbender:remove-background: [epoch 050] average test loss: 3120.1079
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 051]  average training loss: 3097.5423
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 052]  average training loss: 3097.5955
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 053]  average training loss: 3096.6341
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 054]  average training loss: 3095.3108
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 055]  average training loss: 3094.4813
+cellbender:remove-background: [epoch 055] average test loss: 3122.8747
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 056]  average training loss: 3092.8470
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 057]  average training loss: 3092.2373
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 058]  average training loss: 3092.6021
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 059]  average training loss: 3091.9589
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 060]  average training loss: 3091.0252
+cellbender:remove-background: [epoch 060] average test loss: 3107.5777
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 061]  average training loss: 3090.9977
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 062]  average training loss: 3089.8711
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 063]  average training loss: 3088.9567
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 064]  average training loss: 3088.9678
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 065]  average training loss: 3088.8903
+cellbender:remove-background: [epoch 065] average test loss: 3098.2505
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 066]  average training loss: 3087.5222
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 067]  average training loss: 3087.4757
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 068]  average training loss: 3085.7598
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 069]  average training loss: 3086.0948
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 070]  average training loss: 3086.6632
+cellbender:remove-background: [epoch 070] average test loss: 3109.6295
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 071]  average training loss: 3085.3564
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 072]  average training loss: 3083.9325
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 073]  average training loss: 3084.4647
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 074]  average training loss: 3083.8383
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 075]  average training loss: 3083.1220
+cellbender:remove-background: [epoch 075] average test loss: 3109.6678
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 076]  average training loss: 3082.5168
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 077]  average training loss: 3081.7894
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 078]  average training loss: 3082.3092
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 079]  average training loss: 3080.4360
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 080]  average training loss: 3082.6076
+cellbender:remove-background: [epoch 080] average test loss: 3111.8249
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 081]  average training loss: 3082.3318
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 082]  average training loss: 3079.8302
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 083]  average training loss: 3081.5387
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 084]  average training loss: 3079.8505
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Could not save checkpoint
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 140, in save_checkpoint
+    make_tarball(files=file_list, tarball_name=tarball_name)
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 300, in make_tarball
+    os.rename(tarball_name + '.tmp', tarball_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'ckpt.tar.gz.tmp' -> 'ckpt.tar.gz'
+
+cellbender:remove-background: [epoch 085]  average training loss: 3081.0451
+cellbender:remove-background: [epoch 085] average test loss: 3100.8341
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 086]  average training loss: 3079.1122
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 087]  average training loss: 3079.9922
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 088]  average training loss: 3079.3826
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 089]  average training loss: 3079.1104
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 090]  average training loss: 3079.0862
+cellbender:remove-background: [epoch 090] average test loss: 3116.4277
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 091]  average training loss: 3078.6967
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 092]  average training loss: 3078.0447
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 093]  average training loss: 3078.1537
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 094]  average training loss: 3078.3813
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 095]  average training loss: 3077.4738
+cellbender:remove-background: [epoch 095] average test loss: 3103.4858
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 096]  average training loss: 3078.4384
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 097]  average training loss: 3078.3697
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 098]  average training loss: 3076.4060
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 099]  average training loss: 3077.7449
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 100]  average training loss: 3077.7576
+cellbender:remove-background: [epoch 100] average test loss: 3108.0821
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 101]  average training loss: 3075.4816
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 102]  average training loss: 3076.0459
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Could not save checkpoint
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 140, in save_checkpoint
+    make_tarball(files=file_list, tarball_name=tarball_name)
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 300, in make_tarball
+    os.rename(tarball_name + '.tmp', tarball_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'ckpt.tar.gz.tmp' -> 'ckpt.tar.gz'
+
+cellbender:remove-background: [epoch 103]  average training loss: 3075.5255
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Could not save checkpoint
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 140, in save_checkpoint
+    make_tarball(files=file_list, tarball_name=tarball_name)
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/checkpoint.py", line 300, in make_tarball
+    os.rename(tarball_name + '.tmp', tarball_name)
+FileNotFoundError: [Errno 2] No such file or directory: 'ckpt.tar.gz.tmp' -> 'ckpt.tar.gz'
+
+cellbender:remove-background: [epoch 104]  average training loss: 3076.6703
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 105]  average training loss: 3074.8289
+cellbender:remove-background: [epoch 105] average test loss: 3109.3468
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 106]  average training loss: 3074.5869
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 107]  average training loss: 3075.0962
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 108]  average training loss: 3074.1560
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 109]  average training loss: 3074.8471
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 110]  average training loss: 3074.6276
+cellbender:remove-background: [epoch 110] average test loss: 3106.9192
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 111]  average training loss: 3074.7707
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 112]  average training loss: 3074.9008
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 113]  average training loss: 3073.9408
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 114]  average training loss: 3073.8427
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 115]  average training loss: 3074.6571
+cellbender:remove-background: [epoch 115] average test loss: 3103.5515
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 116]  average training loss: 3073.6159
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 117]  average training loss: 3073.8307
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 118]  average training loss: 3073.8996
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 119]  average training loss: 3073.5792
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 120]  average training loss: 3074.0485
+cellbender:remove-background: [epoch 120] average test loss: 3105.0125
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 121]  average training loss: 3074.0637
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 122]  average training loss: 3073.3838
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 123]  average training loss: 3073.7935
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 124]  average training loss: 3073.8433
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 125]  average training loss: 3073.1894
+cellbender:remove-background: [epoch 125] average test loss: 3106.8753
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 126]  average training loss: 3073.6919
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 127]  average training loss: 3073.8234
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 128]  average training loss: 3073.3432
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 129]  average training loss: 3073.0781
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 130]  average training loss: 3073.1765
+cellbender:remove-background: [epoch 130] average test loss: 3103.3453
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 131]  average training loss: 3073.4945
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 132]  average training loss: 3073.1134
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 133]  average training loss: 3073.4630
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 134]  average training loss: 3073.3866
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 135]  average training loss: 3072.3507
+cellbender:remove-background: [epoch 135] average test loss: 3104.7863
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 136]  average training loss: 3072.6273
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 137]  average training loss: 3072.5370
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 138]  average training loss: 3072.8036
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 139]  average training loss: 3072.9634
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 140]  average training loss: 3071.2560
+cellbender:remove-background: [epoch 140] average test loss: 3106.1438
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 141]  average training loss: 3073.0495
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 142]  average training loss: 3072.4927
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 143]  average training loss: 3072.9893
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 144]  average training loss: 3073.0909
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 145]  average training loss: 3072.4368
+cellbender:remove-background: [epoch 145] average test loss: 3105.8923
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 146]  average training loss: 3072.5869
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 147]  average training loss: 3072.3201
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 148]  average training loss: 3072.7819
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 149]  average training loss: 3072.7127
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: [epoch 150]  average training loss: 3072.7110
+cellbender:remove-background: [epoch 150] average test loss: 3105.3568
+cellbender:remove-background: Saving a checkpoint...
+cellbender:remove-background: Saved checkpoint as /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/CellBender/ckpt.tar.gz
+cellbender:remove-background: 2025-02-01 06:22:35
+cellbender:remove-background: Inference procedure complete.
+cellbender:remove-background: Attempting to unpack tarball "ckpt.tar.gz" to /tmp/tmpp1m1txm9
+cellbender:remove-background: Successfully unpacked tarball to /tmp/tmpp1m1txm9
+/tmp/tmpp1m1txm9/c4b87545db_random.pyro
+/tmp/tmpp1m1txm9/c4b87545db_model.torch
+/tmp/tmpp1m1txm9/c4b87545db_optim.torch
+/tmp/tmpp1m1txm9/c4b87545db_optim.pyro
+/tmp/tmpp1m1txm9/c4b87545db_params.pyro
+/tmp/tmpp1m1txm9/c4b87545db_train.loaderstate
+/tmp/tmpp1m1txm9/c4b87545db_test.loaderstate
+/tmp/tmpp1m1txm9/c4b87545db_args.npy
+cellbender:remove-background: Posterior not currently included in checkpoint.
+cellbender:remove-background: Computing posterior noise count probabilities in mini-batches.
+cellbender:remove-background: Working on chunk (1/224)
+cellbender:remove-background:     [0.86 mins per chunk]
+cellbender:remove-background: Working on chunk (2/224)
+cellbender:remove-background: Working on chunk (3/224)
+cellbender:remove-background: Working on chunk (4/224)
+cellbender:remove-background: Working on chunk (5/224)
+cellbender:remove-background: Working on chunk (6/224)
+cellbender:remove-background: Working on chunk (7/224)
+cellbender:remove-background: Working on chunk (8/224)
+cellbender:remove-background: Working on chunk (9/224)
+cellbender:remove-background: Working on chunk (10/224)
+cellbender:remove-background: Working on chunk (11/224)
+cellbender:remove-background: Working on chunk (12/224)
+cellbender:remove-background: Working on chunk (13/224)
+cellbender:remove-background: Working on chunk (14/224)
+cellbender:remove-background: Working on chunk (15/224)
+cellbender:remove-background: Working on chunk (16/224)
+cellbender:remove-background: Working on chunk (17/224)
+cellbender:remove-background: Working on chunk (18/224)
+cellbender:remove-background: Working on chunk (19/224)
+cellbender:remove-background: Working on chunk (20/224)
+cellbender:remove-background: Working on chunk (21/224)
+cellbender:remove-background: Working on chunk (22/224)
+cellbender:remove-background: Working on chunk (23/224)
+cellbender:remove-background: Working on chunk (24/224)
+cellbender:remove-background: Working on chunk (25/224)
+cellbender:remove-background: Working on chunk (26/224)
+cellbender:remove-background: Working on chunk (27/224)
+cellbender:remove-background: Working on chunk (28/224)
+cellbender:remove-background: Working on chunk (29/224)
+cellbender:remove-background: Working on chunk (30/224)
+cellbender:remove-background: Working on chunk (31/224)
+cellbender:remove-background: Working on chunk (32/224)
+cellbender:remove-background: Working on chunk (33/224)
+cellbender:remove-background: Working on chunk (34/224)
+cellbender:remove-background: Working on chunk (35/224)
+cellbender:remove-background: Working on chunk (36/224)
+cellbender:remove-background: Working on chunk (37/224)
+cellbender:remove-background: Working on chunk (38/224)
+cellbender:remove-background: Working on chunk (39/224)
+cellbender:remove-background: Working on chunk (40/224)
+cellbender:remove-background: Working on chunk (41/224)
+cellbender:remove-background: Working on chunk (42/224)
+cellbender:remove-background: Working on chunk (43/224)
+cellbender:remove-background: Working on chunk (44/224)
+cellbender:remove-background: Working on chunk (45/224)
+cellbender:remove-background: Working on chunk (46/224)
+cellbender:remove-background: Working on chunk (47/224)
+cellbender:remove-background: Working on chunk (48/224)
+cellbender:remove-background: Working on chunk (49/224)
+cellbender:remove-background: Working on chunk (50/224)
+cellbender:remove-background: Working on chunk (51/224)
+cellbender:remove-background: Working on chunk (52/224)
+cellbender:remove-background: Working on chunk (53/224)
+cellbender:remove-background: Working on chunk (54/224)
+cellbender:remove-background: Working on chunk (55/224)
+cellbender:remove-background: Working on chunk (56/224)
+cellbender:remove-background: Working on chunk (57/224)
+cellbender:remove-background: Working on chunk (58/224)
+cellbender:remove-background: Working on chunk (59/224)
+cellbender:remove-background: Working on chunk (60/224)
+cellbender:remove-background: Working on chunk (61/224)
+cellbender:remove-background: Working on chunk (62/224)
+cellbender:remove-background: Working on chunk (63/224)
+cellbender:remove-background: Working on chunk (64/224)
+cellbender:remove-background: Working on chunk (65/224)
+cellbender:remove-background: Working on chunk (66/224)
+cellbender:remove-background: Working on chunk (67/224)
+cellbender:remove-background: Working on chunk (68/224)
+cellbender:remove-background: Working on chunk (69/224)
+cellbender:remove-background: Working on chunk (70/224)
+cellbender:remove-background: Working on chunk (71/224)
+cellbender:remove-background: Working on chunk (72/224)
+cellbender:remove-background: Working on chunk (73/224)
+cellbender:remove-background: Working on chunk (74/224)
+cellbender:remove-background: Working on chunk (75/224)
+cellbender:remove-background: Working on chunk (76/224)
+cellbender:remove-background: Working on chunk (77/224)
+cellbender:remove-background: Working on chunk (78/224)
+cellbender:remove-background: Working on chunk (79/224)
+cellbender:remove-background: Working on chunk (80/224)
+cellbender:remove-background: Working on chunk (81/224)
+cellbender:remove-background: Working on chunk (82/224)
+cellbender:remove-background: Working on chunk (83/224)
+cellbender:remove-background: Working on chunk (84/224)
+cellbender:remove-background: Working on chunk (85/224)
+cellbender:remove-background: Working on chunk (86/224)
+cellbender:remove-background: Working on chunk (87/224)
+cellbender:remove-background: Working on chunk (88/224)
+cellbender:remove-background: Working on chunk (89/224)
+cellbender:remove-background: Working on chunk (90/224)
+cellbender:remove-background: Working on chunk (91/224)
+cellbender:remove-background: Working on chunk (92/224)
+cellbender:remove-background: Working on chunk (93/224)
+cellbender:remove-background: Working on chunk (94/224)
+cellbender:remove-background: Working on chunk (95/224)
+cellbender:remove-background: Working on chunk (96/224)
+cellbender:remove-background: Working on chunk (97/224)
+cellbender:remove-background: Working on chunk (98/224)
+cellbender:remove-background: Working on chunk (99/224)
+cellbender:remove-background: Working on chunk (100/224)
+cellbender:remove-background: Working on chunk (101/224)
+cellbender:remove-background: Working on chunk (102/224)
+cellbender:remove-background: Working on chunk (103/224)
+cellbender:remove-background: Working on chunk (104/224)
+cellbender:remove-background: Working on chunk (105/224)
+cellbender:remove-background: Working on chunk (106/224)
+cellbender:remove-background: Working on chunk (107/224)
+cellbender:remove-background: Working on chunk (108/224)
+cellbender:remove-background: Working on chunk (109/224)
+cellbender:remove-background: Working on chunk (110/224)
+cellbender:remove-background: Working on chunk (111/224)
+cellbender:remove-background: Working on chunk (112/224)
+cellbender:remove-background: Working on chunk (113/224)
+cellbender:remove-background: Working on chunk (114/224)
+cellbender:remove-background: Working on chunk (115/224)
+cellbender:remove-background: Working on chunk (116/224)
+cellbender:remove-background: Working on chunk (117/224)
+cellbender:remove-background: Working on chunk (118/224)
+cellbender:remove-background: Working on chunk (119/224)
+cellbender:remove-background: Working on chunk (120/224)
+cellbender:remove-background: Working on chunk (121/224)
+cellbender:remove-background: Working on chunk (122/224)
+cellbender:remove-background: Working on chunk (123/224)
+cellbender:remove-background: Working on chunk (124/224)
+cellbender:remove-background: Working on chunk (125/224)
+cellbender:remove-background: Working on chunk (126/224)
+cellbender:remove-background: Working on chunk (127/224)
+cellbender:remove-background: Working on chunk (128/224)
+cellbender:remove-background: Working on chunk (129/224)
+cellbender:remove-background: Working on chunk (130/224)
+cellbender:remove-background: Working on chunk (131/224)
+cellbender:remove-background: Working on chunk (132/224)
+cellbender:remove-background: Working on chunk (133/224)
+cellbender:remove-background: Working on chunk (134/224)
+cellbender:remove-background: Working on chunk (135/224)
+cellbender:remove-background: Working on chunk (136/224)
+cellbender:remove-background: Working on chunk (137/224)
+cellbender:remove-background: Working on chunk (138/224)
+cellbender:remove-background: Working on chunk (139/224)
+cellbender:remove-background: Working on chunk (140/224)
+cellbender:remove-background: Working on chunk (141/224)
+cellbender:remove-background: Working on chunk (142/224)
+cellbender:remove-background: Working on chunk (143/224)
+cellbender:remove-background: Working on chunk (144/224)
+cellbender:remove-background: Working on chunk (145/224)
+cellbender:remove-background: Working on chunk (146/224)
+cellbender:remove-background: Working on chunk (147/224)
+cellbender:remove-background: Working on chunk (148/224)
+cellbender:remove-background: Working on chunk (149/224)
+cellbender:remove-background: Working on chunk (150/224)
+cellbender:remove-background: Working on chunk (151/224)
+cellbender:remove-background: Working on chunk (152/224)
+cellbender:remove-background: Working on chunk (153/224)
+cellbender:remove-background: Working on chunk (154/224)
+cellbender:remove-background: Working on chunk (155/224)
+cellbender:remove-background: Working on chunk (156/224)
+cellbender:remove-background: Working on chunk (157/224)
+cellbender:remove-background: Working on chunk (158/224)
+cellbender:remove-background: Working on chunk (159/224)
+cellbender:remove-background: Working on chunk (160/224)
+cellbender:remove-background: Working on chunk (161/224)
+cellbender:remove-background: Working on chunk (162/224)
+cellbender:remove-background: Working on chunk (163/224)
+cellbender:remove-background: Working on chunk (164/224)
+cellbender:remove-background: Working on chunk (165/224)
+cellbender:remove-background: Working on chunk (166/224)
+cellbender:remove-background: Working on chunk (167/224)
+cellbender:remove-background: Working on chunk (168/224)
+cellbender:remove-background: Working on chunk (169/224)
+cellbender:remove-background: Working on chunk (170/224)
+cellbender:remove-background: Working on chunk (171/224)
+cellbender:remove-background: Working on chunk (172/224)
+cellbender:remove-background: Working on chunk (173/224)
+cellbender:remove-background: Working on chunk (174/224)
+cellbender:remove-background: Working on chunk (175/224)
+cellbender:remove-background: Working on chunk (176/224)
+cellbender:remove-background: Working on chunk (177/224)
+cellbender:remove-background: Working on chunk (178/224)
+cellbender:remove-background: Working on chunk (179/224)
+cellbender:remove-background: Working on chunk (180/224)
+cellbender:remove-background: Working on chunk (181/224)
+cellbender:remove-background: Working on chunk (182/224)
+cellbender:remove-background: Working on chunk (183/224)
+cellbender:remove-background: Working on chunk (184/224)
+cellbender:remove-background: Working on chunk (185/224)
+cellbender:remove-background: Working on chunk (186/224)
+cellbender:remove-background: Working on chunk (187/224)
+cellbender:remove-background: Working on chunk (188/224)
+cellbender:remove-background: Working on chunk (189/224)
+cellbender:remove-background: Working on chunk (190/224)
+cellbender:remove-background: Working on chunk (191/224)
+cellbender:remove-background: Working on chunk (192/224)
+cellbender:remove-background: Working on chunk (193/224)
+cellbender:remove-background: Working on chunk (194/224)
+cellbender:remove-background: Working on chunk (195/224)
+cellbender:remove-background: Working on chunk (196/224)
+cellbender:remove-background: Working on chunk (197/224)
+cellbender:remove-background: Working on chunk (198/224)
+cellbender:remove-background: Working on chunk (199/224)
+cellbender:remove-background: Working on chunk (200/224)
+cellbender:remove-background: Working on chunk (201/224)
+cellbender:remove-background: Working on chunk (202/224)
+cellbender:remove-background: Working on chunk (203/224)
+cellbender:remove-background: Working on chunk (204/224)
+cellbender:remove-background: Working on chunk (205/224)
+cellbender:remove-background: Working on chunk (206/224)
+cellbender:remove-background: Working on chunk (207/224)
+cellbender:remove-background: Working on chunk (208/224)
+cellbender:remove-background: Working on chunk (209/224)
+cellbender:remove-background: Working on chunk (210/224)
+cellbender:remove-background: Working on chunk (211/224)
+cellbender:remove-background: Working on chunk (212/224)
+cellbender:remove-background: Working on chunk (213/224)
+cellbender:remove-background: Working on chunk (214/224)
+cellbender:remove-background: Working on chunk (215/224)
+cellbender:remove-background: Working on chunk (216/224)
+cellbender:remove-background: Working on chunk (217/224)
+cellbender:remove-background: Working on chunk (218/224)
+cellbender:remove-background: Working on chunk (219/224)
+cellbender:remove-background: Working on chunk (220/224)
+cellbender:remove-background: Working on chunk (221/224)
+cellbender:remove-background: Working on chunk (222/224)
+cellbender:remove-background: Working on chunk (223/224)
+cellbender:remove-background: Working on chunk (224/224)
+cellbender:remove-background: Writing full posterior to /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered_posterior.h5
+cellbender:remove-background: Succeeded in writing posterior to file /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered_posterior.h5
+cellbender:remove-background: Added posterior object to checkpoint file.
+cellbender:remove-background: 2025-02-01 09:46:44
+
+cellbender:remove-background: Saved summary plots as /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered.pdf
+cellbender:remove-background: Saved cell barcodes in /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered_cell_barcodes.csv
+cellbender:remove-background: Computing target noise counts per gene for MCKP estimator
+cellbender:remove-background: Using MCKP noise targets computed for FPR 0.01
+cellbender:remove-background: Computing denoised counts using mckp estimator
+cellbender:remove-background: Working on chunk (1/7)
+cellbender:remove-background:     [3.73 mins per chunk]
+cellbender:remove-background: Working on chunk (2/7)
+cellbender:remove-background: Working on chunk (3/7)
+cellbender:remove-background: Working on chunk (4/7)
+cellbender:remove-background: Working on chunk (5/7)
+cellbender:remove-background: Working on chunk (6/7)
+cellbender:remove-background: Working on chunk (7/7)
+cellbender:remove-background: 2025-02-01 10:14:01 Total MCKP estimation time = 1548.84 sec
+cellbender:remove-background: Succeeded in writing CellRanger format output to file /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered.h5
+cellbender:remove-background: Succeeded in writing CellRanger format output to file /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered_filtered.h5
+cellbender:remove-background: Saved output metrics as /storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered_metrics.csv
+Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/bin/jupyter-nbconvert", line 5, in <module>
+    from nbconvert.nbconvertapp import main
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/__init__.py", line 5, in <module>
+    from .exporters import *
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/exporters/__init__.py", line 1, in <module>
+    from .asciidoc import ASCIIDocExporter
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/exporters/asciidoc.py", line 9, in <module>
+    from .templateexporter import TemplateExporter
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/exporters/templateexporter.py", line 25, in <module>
+    from lxml.html.clean import clean_html
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/lxml/html/clean.py", line 21, in <module>
+    ) from None
+ImportError: lxml.html.clean module is now a separate project lxml_html_clean.
+Install lxml[html_clean] or lxml_html_clean directly.
+Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/bin/jupyter-nbconvert", line 5, in <module>
+    from nbconvert.nbconvertapp import main
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/__init__.py", line 5, in <module>
+    from .exporters import *
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/exporters/__init__.py", line 1, in <module>
+    from .asciidoc import ASCIIDocExporter
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/exporters/asciidoc.py", line 9, in <module>
+    from .templateexporter import TemplateExporter
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/nbconvert/exporters/templateexporter.py", line 25, in <module>
+    from lxml.html.clean import clean_html
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/lxml/html/clean.py", line 21, in <module>
+    ) from None
+ImportError: lxml.html.clean module is now a separate project lxml_html_clean.
+Install lxml[html_clean] or lxml_html_clean directly.
+mv: cannot stat 'tmp.report.nbconvert.html': No such file or directory
+rm: cannot remove 'tmp.report.nbconvert.ipynb': No such file or directory
+cellbender:remove-background: Unable to create report.
+cellbender:remove-background: Traceback (most recent call last):
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/run.py", line 351, in compute_output_denoised_counts_reports_metrics
+    output=html_report_file,
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/report.py", line 82, in run_notebook_make_html
+    title=('CellBender: ' + os.path.basename(output).replace('_report.html', '')),
+  File "/home/quiquevb/.conda/envs/cellbender/lib/python3.7/site-packages/cellbender/remove_background/report.py", line 59, in _postprocess_html
+    with open(file, mode='r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/storage/gge/Quique/Cells2SpineData/Pilot/single-cell/full_seq/Single_Cell_1/HFNHJDSXC/outs/outs/cellbender_filtered_report.html'
+
+cellbender:remove-background: Completed remove-background.
+cellbender:remove-background: 2025-02-01 10:14:54
+

@@ -1,0 +1,16 @@
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Deconvolution/clustering_deconv.py:54: FutureWarning: In the future, the default backend for leiden will be igraph instead of leidenalg.
+
+ To achieve the future defaults please pass: flavor="igraph" and n_iterations=2.  directed must also be False to work with igraph's implementation.
+  sc.tl.leiden(adata_prop, resolution=0.4, key_added="ct_leiden_0.4")  # Adjust resolution parameter as needed
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_utils.py:41: UserWarning: You’re trying to run this on 10737 dimensions of `.X`, if you really want this, set `use_rep='X'`.
+         Falling back to preprocessing with `sc.pp.pca` and default params.
+  warnings.warn(
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_utils.py:41: UserWarning: You’re trying to run this on 10739 dimensions of `.X`, if you really want this, set `use_rep='X'`.
+         Falling back to preprocessing with `sc.pp.pca` and default params.
+  warnings.warn(
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_utils.py:41: UserWarning: You’re trying to run this on 10221 dimensions of `.X`, if you really want this, set `use_rep='X'`.
+         Falling back to preprocessing with `sc.pp.pca` and default params.
+  warnings.warn(
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_utils.py:41: UserWarning: You’re trying to run this on 10246 dimensions of `.X`, if you really want this, set `use_rep='X'`.
+         Falling back to preprocessing with `sc.pp.pca` and default params.
+  warnings.warn(

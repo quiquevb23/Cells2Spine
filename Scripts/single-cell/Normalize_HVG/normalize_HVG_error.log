@@ -1,0 +1,2 @@
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Normalize_HVG/normalize_HVG.py:40: DeprecationWarning: The global conversion available with activate() is deprecated and will be removed in the next major release. Use a local converter.
+  anndata2ri.activate()

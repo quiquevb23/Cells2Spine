@@ -1,0 +1,698 @@
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:12:38] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:13:20] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:13:32] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:13:44] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:13:56] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:14:22] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:14:50] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:15:17] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:16:11] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:17:07] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:18:03] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:18:31] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:18:59] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:19:26] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:20:26] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:21:23] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:22:20] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:24:08] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:25:53] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:27:44] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:28:27] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:29:13] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:29:56] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:31:19] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:32:42] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:34:04] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:36:39] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:39:17] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:41:54] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:42:07] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:42:21] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:42:35] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:43:03] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:43:32] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:44:01] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:44:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:45:34] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:46:22] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:46:47] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:47:12] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:47:36] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:48:17] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:48:58] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:49:39] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:50:42] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:51:45] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:52:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:53:21] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:53:55] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:54:28] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:55:19] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:56:11] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:57:04] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:58:18] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [22:59:33] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:00:47] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:00:59] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:01:11] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:01:23] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:01:43] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:02:03] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:02:24] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:02:58] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:03:33] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:04:08] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:04:26] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:04:44] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:05:03] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:05:29] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:05:56] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:06:24] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:07:05] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:07:47] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:08:30] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:08:51] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:09:12] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:09:35] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:10:05] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:10:35] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:11:06] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:11:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:12:31] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [23:13:13] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/sklearn/metrics/_classification.py:1531: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:38:19] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:39:39] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:39:57] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:40:15] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:40:32] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:41:10] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:41:46] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:42:23] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:43:37] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:44:50] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:46:03] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:46:42] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:47:21] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:47:59] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:49:16] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:50:34] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:51:51] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:54:34] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:57:10] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [00:59:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:00:55] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:02:01] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:03:06] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:05:17] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:07:24] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:09:32] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:13:56] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:18:11] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:22:29] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:22:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:23:08] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:23:28] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:24:07] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:24:46] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:25:25] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:26:40] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:27:55] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:29:11] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:29:50] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:30:29] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:31:08] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:32:19] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:33:29] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:34:39] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:36:39] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:38:39] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:40:39] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:41:36] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:42:33] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:43:31] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:45:06] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:46:42] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:48:17] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:50:43] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:53:05] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:55:29] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:55:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:56:08] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:56:27] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:57:05] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:57:44] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:58:21] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [01:59:29] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:00:38] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:01:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:02:21] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:02:53] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:03:26] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:04:19] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:05:14] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:06:08] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:07:37] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:09:05] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:10:35] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:11:17] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:11:59] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:12:41] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:13:44] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:14:46] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:15:48] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:17:22] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:18:56] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/xgboost/core.py:158: UserWarning: [02:20:29] WARNING: /workspace/src/learner.cc:740: 
+Parameters: { "use_label_encoder" } are not used.
+
+  warnings.warn(smsg, UserWarning)

@@ -1,0 +1,255 @@
+R[write to console]: 
+Attaching package: ‘renv’
+
+
+R[write to console]: The following objects are masked from ‘package:stats’:
+
+    embed, update
+
+
+R[write to console]: The following objects are masked from ‘package:utils’:
+
+    history, upgrade
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    autoload, load, remove
+
+
+R[write to console]: Loading required package: SeuratObject
+
+R[write to console]: Loading required package: sp
+
+R[write to console]: 
+Attaching package: ‘SeuratObject’
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    intersect, t
+
+
+R[write to console]: Warning:
+R[write to console]:  Data is of class matrix. Coercing to dgCMatrix.
+
+R[write to console]: Running SCTransform on assay: RNA
+
+R[write to console]: Running SCTransform on layer: counts
+
+R[write to console]: vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+
+R[write to console]: `vst.flavor` is set to 'v2' but could not find glmGamPoi installed.
+Please install the glmGamPoi package for much faster estimation.
+--------------------------------------------
+install.packages('BiocManager')
+BiocManager::install('glmGamPoi')
+--------------------------------------------
+Falling back to native (slower) implementation.
+
+
+R[write to console]: Variance stabilizing transformation of count matrix of size 18543 by 559
+
+R[write to console]: Model formula is y ~ log_umi
+
+R[write to console]: Get Negative Binomial regression parameters per gene
+
+R[write to console]: Using 2000 genes, 559 cells
+
+R[write to console]: Found 110 outliers - those will be ignored in fitting/regularization step
+
+
+R[write to console]: Second step: Get residuals using fitted parameters for 18543 genes
+
+R[write to console]: Computing corrected count matrix for 18543 genes
+
+R[write to console]: Calculating gene attributes
+
+R[write to console]: Wall clock passed: Time difference of 1.779603 mins
+
+R[write to console]: Determine variable features
+
+R[write to console]: Centering data matrix
+
+R[write to console]:   |                                                                            
+R[write to console]:   |                                                                      |   0%
+R[write to console]:   |                                                                            
+R[write to console]:   |==================                                                    |  25%
+R[write to console]:   |                                                                            
+R[write to console]:   |===================================                                   |  50%
+R[write to console]:   |                                                                            
+R[write to console]:   |====================================================                  |  75%
+R[write to console]:   |                                                                            
+R[write to console]:   |======================================================================| 100%
+R[write to console]: 
+
+R[write to console]: Set default assay to SCT
+
+R[write to console]: Warning:
+R[write to console]:  Data is of class matrix. Coercing to dgCMatrix.
+
+R[write to console]: Running SCTransform on assay: RNA
+
+R[write to console]: Running SCTransform on layer: counts
+
+R[write to console]: vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+
+R[write to console]: `vst.flavor` is set to 'v2' but could not find glmGamPoi installed.
+Please install the glmGamPoi package for much faster estimation.
+--------------------------------------------
+install.packages('BiocManager')
+BiocManager::install('glmGamPoi')
+--------------------------------------------
+Falling back to native (slower) implementation.
+
+
+R[write to console]: Variance stabilizing transformation of count matrix of size 18150 by 625
+
+R[write to console]: Model formula is y ~ log_umi
+
+R[write to console]: Get Negative Binomial regression parameters per gene
+
+R[write to console]: Using 2000 genes, 625 cells
+
+R[write to console]: Found 184 outliers - those will be ignored in fitting/regularization step
+
+
+R[write to console]: Second step: Get residuals using fitted parameters for 18150 genes
+
+R[write to console]: Computing corrected count matrix for 18150 genes
+
+R[write to console]: Calculating gene attributes
+
+R[write to console]: Wall clock passed: Time difference of 2.632656 mins
+
+R[write to console]: Determine variable features
+
+R[write to console]: Centering data matrix
+
+R[write to console]:   |                                                                            
+R[write to console]:   |                                                                      |   0%
+R[write to console]:   |                                                                            
+R[write to console]:   |==================                                                    |  25%
+R[write to console]:   |                                                                            
+R[write to console]:   |===================================                                   |  50%
+R[write to console]:   |                                                                            
+R[write to console]:   |====================================================                  |  75%
+R[write to console]:   |                                                                            
+R[write to console]:   |======================================================================| 100%
+R[write to console]: 
+
+R[write to console]: Set default assay to SCT
+
+R[write to console]: Warning:
+R[write to console]:  Data is of class matrix. Coercing to dgCMatrix.
+
+R[write to console]: Running SCTransform on assay: RNA
+
+R[write to console]: Running SCTransform on layer: counts
+
+R[write to console]: vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+
+R[write to console]: `vst.flavor` is set to 'v2' but could not find glmGamPoi installed.
+Please install the glmGamPoi package for much faster estimation.
+--------------------------------------------
+install.packages('BiocManager')
+BiocManager::install('glmGamPoi')
+--------------------------------------------
+Falling back to native (slower) implementation.
+
+
+R[write to console]: Variance stabilizing transformation of count matrix of size 18464 by 564
+
+R[write to console]: Model formula is y ~ log_umi
+
+R[write to console]: Get Negative Binomial regression parameters per gene
+
+R[write to console]: Using 2000 genes, 564 cells
+
+R[write to console]: Found 151 outliers - those will be ignored in fitting/regularization step
+
+
+R[write to console]: Second step: Get residuals using fitted parameters for 18464 genes
+
+R[write to console]: Computing corrected count matrix for 18464 genes
+
+R[write to console]: Calculating gene attributes
+
+R[write to console]: Wall clock passed: Time difference of 2.089091 mins
+
+R[write to console]: Determine variable features
+
+R[write to console]: Centering data matrix
+
+R[write to console]:   |                                                                            
+R[write to console]:   |                                                                      |   0%
+R[write to console]:   |                                                                            
+R[write to console]:   |==================                                                    |  25%
+R[write to console]:   |                                                                            
+R[write to console]:   |===================================                                   |  50%
+R[write to console]:   |                                                                            
+R[write to console]:   |====================================================                  |  75%
+R[write to console]:   |                                                                            
+R[write to console]:   |======================================================================| 100%
+R[write to console]: 
+
+R[write to console]: Set default assay to SCT
+
+R[write to console]: Warning:
+R[write to console]:  Data is of class matrix. Coercing to dgCMatrix.
+
+R[write to console]: Running SCTransform on assay: RNA
+
+R[write to console]: Running SCTransform on layer: counts
+
+R[write to console]: vst.flavor='v2' set. Using model with fixed slope and excluding poisson genes.
+
+R[write to console]: `vst.flavor` is set to 'v2' but could not find glmGamPoi installed.
+Please install the glmGamPoi package for much faster estimation.
+--------------------------------------------
+install.packages('BiocManager')
+BiocManager::install('glmGamPoi')
+--------------------------------------------
+Falling back to native (slower) implementation.
+
+
+R[write to console]: Variance stabilizing transformation of count matrix of size 18179 by 569
+
+R[write to console]: Model formula is y ~ log_umi
+
+R[write to console]: Get Negative Binomial regression parameters per gene
+
+R[write to console]: Using 2000 genes, 569 cells
+
+R[write to console]: Found 211 outliers - those will be ignored in fitting/regularization step
+
+
+R[write to console]: Second step: Get residuals using fitted parameters for 18179 genes
+
+R[write to console]: Computing corrected count matrix for 18179 genes
+
+R[write to console]: Calculating gene attributes
+
+R[write to console]: Wall clock passed: Time difference of 2.331986 mins
+
+R[write to console]: Determine variable features
+
+R[write to console]: Centering data matrix
+
+R[write to console]:   |                                                                            
+R[write to console]:   |                                                                      |   0%
+R[write to console]:   |                                                                            
+R[write to console]:   |==================                                                    |  25%
+R[write to console]:   |                                                                            
+R[write to console]:   |===================================                                   |  50%
+R[write to console]:   |                                                                            
+R[write to console]:   |====================================================                  |  75%
+R[write to console]:   |                                                                            
+R[write to console]:   |======================================================================| 100%
+R[write to console]: 
+
+R[write to console]: Set default assay to SCT
+
+R[write to console]: There were 50 or more warnings (use warnings() to see the first 50)
+R[write to console]: 
+

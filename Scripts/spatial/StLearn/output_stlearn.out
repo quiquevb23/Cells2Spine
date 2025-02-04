@@ -1,0 +1,78 @@
+Processing sample Spatial_4 with size: (559, 39537)
+Normalization step is finished in adata.X
+Log transformation step is finished in adata.X
+The morphology feature is added to adata.obsm['X_morphology']!
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+The data adjusted by SME is added to adata.obsm['raw_SME_normalized']
+Scale step is finished in adata.X
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+Applying Kmeans cluster ...
+Kmeans cluster is done! The labels are stored in adata.obs["kmeans"]
+Created k-Nearest-Neighbor graph in adata.uns['neighbors'] 
+Applying Louvain cluster ...
+Louvain cluster is done! The labels are stored in adata.obs['louvain']
+Processing sample Spatial_2 with size: (625, 39537)
+Normalization step is finished in adata.X
+Log transformation step is finished in adata.X
+The morphology feature is added to adata.obsm['X_morphology']!
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+The data adjusted by SME is added to adata.obsm['raw_SME_normalized']
+Scale step is finished in adata.X
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+Applying Kmeans cluster ...
+Kmeans cluster is done! The labels are stored in adata.obs["kmeans"]
+Created k-Nearest-Neighbor graph in adata.uns['neighbors'] 
+Applying Louvain cluster ...
+Louvain cluster is done! The labels are stored in adata.obs['louvain']
+Processing sample Spatial_3 with size: (564, 39537)
+Normalization step is finished in adata.X
+Log transformation step is finished in adata.X
+The morphology feature is added to adata.obsm['X_morphology']!
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+The data adjusted by SME is added to adata.obsm['raw_SME_normalized']
+Scale step is finished in adata.X
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+Applying Kmeans cluster ...
+Kmeans cluster is done! The labels are stored in adata.obs["kmeans"]
+Created k-Nearest-Neighbor graph in adata.uns['neighbors'] 
+Applying Louvain cluster ...
+Louvain cluster is done! The labels are stored in adata.obs['louvain']
+Processing sample Spatial_1 with size: (569, 39537)
+Normalization step is finished in adata.X
+Log transformation step is finished in adata.X
+The morphology feature is added to adata.obsm['X_morphology']!
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+The data adjusted by SME is added to adata.obsm['raw_SME_normalized']
+Scale step is finished in adata.X
+PCA is done! Generated in adata.obsm['X_pca'], adata.uns['pca'] and adata.varm['PCs']
+Applying Kmeans cluster ...
+Kmeans cluster is done! The labels are stored in adata.obs["kmeans"]
+Created k-Nearest-Neighbor graph in adata.uns['neighbors'] 
+Applying Louvain cluster ...
+Louvain cluster is done! The labels are stored in adata.obs['louvain']
+Size of adata_combined_healthy: (1194, 16920)
+1194
+1194
+healthy
+injured
+healthy
+healthy
+625
+healthy
+injured
+healthy
+healthy
+569
+Size of adata_combined_injured: (1123, 17210)
+1123
+1123
+injured
+injured
+559
+injured
+healthy
+injured
+injured
+564
+injured
+healthy

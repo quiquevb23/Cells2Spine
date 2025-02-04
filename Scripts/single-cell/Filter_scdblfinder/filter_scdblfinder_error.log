@@ -1,0 +1,168 @@
+R[write to console]: 
+Attaching package: ‘renv’
+
+
+R[write to console]: The following objects are masked from ‘package:stats’:
+
+    embed, update
+
+
+R[write to console]: The following objects are masked from ‘package:utils’:
+
+    history, upgrade
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    autoload, load, remove
+
+
+R[write to console]: Loading required package: SingleCellExperiment
+
+R[write to console]: Loading required package: SummarizedExperiment
+
+R[write to console]: Loading required package: MatrixGenerics
+
+R[write to console]: Loading required package: matrixStats
+
+R[write to console]: 
+Attaching package: ‘MatrixGenerics’
+
+
+R[write to console]: The following objects are masked from ‘package:matrixStats’:
+
+    colAlls, colAnyNAs, colAnys, colAvgsPerRowSet, colCollapse,
+    colCounts, colCummaxs, colCummins, colCumprods, colCumsums,
+    colDiffs, colIQRDiffs, colIQRs, colLogSumExps, colMadDiffs,
+    colMads, colMaxs, colMeans2, colMedians, colMins, colOrderStats,
+    colProds, colQuantiles, colRanges, colRanks, colSdDiffs, colSds,
+    colSums2, colTabulates, colVarDiffs, colVars, colWeightedMads,
+    colWeightedMeans, colWeightedMedians, colWeightedSds,
+    colWeightedVars, rowAlls, rowAnyNAs, rowAnys, rowAvgsPerColSet,
+    rowCollapse, rowCounts, rowCummaxs, rowCummins, rowCumprods,
+    rowCumsums, rowDiffs, rowIQRDiffs, rowIQRs, rowLogSumExps,
+    rowMadDiffs, rowMads, rowMaxs, rowMeans2, rowMedians, rowMins,
+    rowOrderStats, rowProds, rowQuantiles, rowRanges, rowRanks,
+    rowSdDiffs, rowSds, rowSums2, rowTabulates, rowVarDiffs, rowVars,
+    rowWeightedMads, rowWeightedMeans, rowWeightedMedians,
+    rowWeightedSds, rowWeightedVars
+
+
+R[write to console]: Loading required package: GenomicRanges
+
+R[write to console]: Loading required package: stats4
+
+R[write to console]: Loading required package: BiocGenerics
+
+R[write to console]: 
+Attaching package: ‘BiocGenerics’
+
+
+R[write to console]: The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+
+R[write to console]: Loading required package: S4Vectors
+
+R[write to console]: 
+Attaching package: ‘S4Vectors’
+
+
+R[write to console]: The following object is masked from ‘package:utils’:
+
+    findMatches
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+
+R[write to console]: Loading required package: IRanges
+
+R[write to console]: Loading required package: GenomeInfoDb
+
+R[write to console]: Loading required package: Biobase
+
+R[write to console]: Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+R[write to console]: 
+Attaching package: ‘Biobase’
+
+
+R[write to console]: The following object is masked from ‘package:MatrixGenerics’:
+
+    rowMedians
+
+
+R[write to console]: The following objects are masked from ‘package:matrixStats’:
+
+    anyMissing, rowMedians
+
+
+R[write to console]: Creating ~25000 artificial doublets...
+
+R[write to console]: Dimensional reduction
+
+R[write to console]: Evaluating kNN...
+
+R[write to console]: Training model...
+
+R[write to console]: iter=0, 14219 cells excluded from training.
+
+R[write to console]: iter=1, 16623 cells excluded from training.
+
+R[write to console]: iter=2, 16681 cells excluded from training.
+
+R[write to console]: Threshold found:0.004
+
+R[write to console]: 14487 (26%) doublets called
+
+R[write to console]: Creating ~25000 artificial doublets...
+
+R[write to console]: Dimensional reduction
+
+R[write to console]: Evaluating kNN...
+
+R[write to console]: Training model...
+
+R[write to console]: iter=0, 16766 cells excluded from training.
+
+R[write to console]: iter=1, 19335 cells excluded from training.
+
+R[write to console]: iter=2, 19333 cells excluded from training.
+
+R[write to console]: Threshold found:0.002
+
+R[write to console]: 17217 (28.3%) doublets called
+
+R[write to console]: Warning messages:
+
+R[write to console]: 1: 
+R[write to console]: In scDblFinder(SingleCellExperiment(list(counts = data_mat), )) :
+R[write to console]: 
+ 
+R[write to console]:  You are trying to run scDblFinder on a very large number of cells. If these are from different captures, please specify this using the `samples` argument.TRUE
+
+R[write to console]: 2: 
+R[write to console]: In scDblFinder(SingleCellExperiment(list(counts = data_mat), )) :
+R[write to console]: 
+ 
+R[write to console]:  You are trying to run scDblFinder on a very large number of cells. If these are from different captures, please specify this using the `samples` argument.TRUE
+
