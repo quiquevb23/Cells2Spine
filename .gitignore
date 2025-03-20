@@ -8,3 +8,5 @@ Scripts/spatial/DEG_among_domains/alldata_proportions.h5ad
 Scripts/spatial/StLearn/tmp/
 Scripts/spatial/DEG_among_domains/test/
 Scripts/spatial/Deconvolution/RCTD/only_R/tmp/rctd_data/Spatial_*_counts.csv
+Scripts/spatial/Deconvolution/output_cell2loc.out
+
