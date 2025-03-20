@@ -6,18 +6,17 @@
   utils.warn_names_duplicates("obs")
 /home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
   utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+WARNING: adata.X seems to be already log-transformed.
+WARNING: adata.X seems to be already log-transformed.
 /home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/umap/umap_.py:1945: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
   warn(f"n_jobs value {self.n_jobs} overridden to 1 by setting random_state. Use no seed for parallelism.")
-Traceback (most recent call last):
-  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/integration_annotation/scanpy_ingest_integrate_annotate.py", line 78, in <module>
-    run_ingest(adata, single_cell_ref_h5, sample_name, output_dir, sample_path)
-  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/integration_annotation/scanpy_ingest_integrate_annotate.py", line 60, in run_ingest
-    sc.tl.ingest(adata, adata_ref_subs, obs='cell_type')
-  File "/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/legacy_api_wrap/__init__.py", line 80, in fn_compatible
-    return fn(*args_all, **kw)
-           ^^^^^^^^^^^^^^^^^^^
-  File "/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_ingest.py", line 145, in ingest
-    ing.fit(adata)
-  File "/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_ingest.py", line 400, in fit
-    raise ValueError(
-ValueError: Variables in the new adata are different from variables in the reference adata
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Ingest_annot/ingest_joined.py:66: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  count_table = df.groupby(['reference', 'prediction']).size().reset_index(name='cell_count')
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/single-cell/Ingest_annot/ingest_joined.py:69: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  reference_totals = count_table.groupby('reference')['cell_count'].transform('sum')
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:645: ImplicitModificationWarning: Trying to modify attribute `._uns` of view, initializing view as actual.
+  adata.uns[key_added] = {}
+WARNING: It seems you use rank_genes_groups on the raw count data. Please logarithmize your data before calling rank_genes_groups.
+WARNING: dendrogram data not found (using key=dendrogram_cell_type). Running `sc.tl.dendrogram` with default parameters. For fine tuning it is recommended to run `sc.tl.dendrogram` independently.

@@ -1,0 +1,752 @@
+Activating Conda environment: scanpy-env
+Activating Conda environment: scanpy-env
+Running Python script 1: conversor.py
+Writing output to: ./tmp/rctd_data
+Found 4 H5AD files: ['/storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_4/outs/matrices/adata_Spatial_4_manual_delineation.h5ad', '/storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_2/outs/matrices/adata_Spatial_2_manual_delineation.h5ad', '/storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_3/outs/matrices/adata_Spatial_3_manual_delineation.h5ad', '/storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_1/outs/matrices/adata_Spatial_1_manual_delineation.h5ad']
+Reading: /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_4/outs/matrices/adata_Spatial_4_manual_delineation.h5ad
+Processing Spatial_4...
+Successfully loaded /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_4/outs/matrices/adata_Spatial_4_manual_delineation.h5ad
+Saved: ./tmp/rctd_data/Spatial_4_counts.csv
+Finished processing Spatial_4
+Reading: /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_2/outs/matrices/adata_Spatial_2_manual_delineation.h5ad
+Processing Spatial_2...
+Successfully loaded /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_2/outs/matrices/adata_Spatial_2_manual_delineation.h5ad
+Saved: ./tmp/rctd_data/Spatial_2_counts.csv
+Finished processing Spatial_2
+Reading: /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_3/outs/matrices/adata_Spatial_3_manual_delineation.h5ad
+Processing Spatial_3...
+Successfully loaded /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_3/outs/matrices/adata_Spatial_3_manual_delineation.h5ad
+Saved: ./tmp/rctd_data/Spatial_3_counts.csv
+Finished processing Spatial_3
+Reading: /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_1/outs/matrices/adata_Spatial_1_manual_delineation.h5ad
+Processing Spatial_1...
+Successfully loaded /storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices/indiv_samples/Spatial_1/outs/matrices/adata_Spatial_1_manual_delineation.h5ad
+Saved: ./tmp/rctd_data/Spatial_1_counts.csv
+Finished processing Spatial_1
+All H5AD files processed.
+Running Python script 2: conversor_ref.py
+Processing injured...
+Converting injured to sparse format
+Saved counts matrix: ./tmp/rctd_data/injured/counts.mtx
+Saved genes: ./tmp/rctd_data/injured/genes.csv
+Saved cells: ./tmp/rctd_data/injured/cells.csv
+Saved cell types: ./tmp/rctd_data/injured/cell_types.csv
+Finished processing injured
+Processing healthy...
+Converting healthy to sparse format
+Saved counts matrix: ./tmp/rctd_data/healthy/counts.mtx
+Saved genes: ./tmp/rctd_data/healthy/genes.csv
+Saved cells: ./tmp/rctd_data/healthy/cells.csv
+Saved cell types: ./tmp/rctd_data/healthy/cell_types.csv
+Finished processing healthy
+All H5AD files processed.
+Running R script: RCTD.R with renv in /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Deconvolution/RCTD/only_R
+- The library is already synchronized with the lockfile.
+Cell Type Counts:
+cell_types
+                                        Astrocytes, cycling 
+                                                          1 
+                                        Astrocytes, fibrous 
+                                                        163 
+                                   Astrocytes, protoplasmic 
+                                                        542 
+                                       Astrocytes, reactive 
+                                                         98 
+                                                    B cells 
+                                                         74 
+                                                      CSF_N 
+                                                         20 
+                                             DE_Cpne4_Prkcg 
+                                                        706 
+                                                     DE_Maf 
+                                                        624 
+                                                    DE_Reln 
+                                                        122 
+                                                   DE_Rreb1 
+                                                        210 
+                                               DE_Sox5_Tac1 
+                                                       1438 
+                                               DE_Sox5_Tac2 
+                                                        433 
+                                                     DI_Npy 
+                                                        218 
+                                                    DI_Pdyn 
+                                                        417 
+                                                    DI_Rorb 
+                                                       1288 
+Differentiation-committed oligodendrocyte precursors (COPs) 
+                                                         55 
+                                            Ependymal cells 
+                                                        184 
+                         Infiltrating, bordering leukocytes 
+                                                         15 
+                           Macrophages, chemotaxis-inducing 
+                                                         12 
+                                  Macrophages, inflammatory 
+                                                         20 
+                              Mature oligodendrocytes (MOL) 
+                                                       3922 
+                    Mature oligodendrocytes (MOL), ischemic 
+                                                       2328 
+                                                        MEL 
+                                                        501 
+                                                        MEP 
+                                                        291 
+                                                         MI 
+                                                        518 
+                                                  Microglia 
+                                                        586 
+                     Myelin forming oligodendrocytes (MFOL) 
+                                                       5898 
+                                          Myeloid, dividing 
+                                                          7 
+                                          Neural stem cells 
+                                                         86 
+                       Newly formed oligodendrocytes (NFOL) 
+                                                        508 
+                                                NK, T cells 
+                                                         48 
+                     Oligodendrocytes precursor cells (OPC) 
+                                                        748 
+            Oligodendrocytes precursor cells (OPC), cycling 
+                                                         15 
+    Oligodendrocytes precursor cells (OPC), differentiating 
+                                                         55 
+                                                  Pericytes 
+                                                         95 
+                                                         V1 
+                                                        574 
+                                 Vascular endothelial cells 
+                                                        310 
+                         Vascular endothelial cells, venous 
+                                                         64 
+                              Vascular leptomeningeal cells 
+                                                        496 
+                 Vascular leptomeningeal cells, ECM forming 
+                                                         79 
+                                                VCL_V0d_V2b 
+                                                        306 
+                                               VEL_V2a_Vsx2 
+                                                         21 
+                                                        VEP 
+                                                        811 
+                                                     VEP_V0 
+                                                         45 
+Cell Type Counts:
+cell_types
+                                        Astrocytes, cycling 
+                                                         13 
+                                        Astrocytes, fibrous 
+                                                        960 
+                                   Astrocytes, protoplasmic 
+                                                        870 
+                                       Astrocytes, reactive 
+                                                        796 
+                                                    B cells 
+                                                         97 
+                                                      CSF_N 
+                                                         54 
+                                             DE_Cpne4_Prkcg 
+                                                        822 
+                                                     DE_Maf 
+                                                        654 
+                                                    DE_Reln 
+                                                        143 
+                                                   DE_Rreb1 
+                                                        232 
+                                               DE_Sox5_Tac1 
+                                                       1648 
+                                               DE_Sox5_Tac2 
+                                                        540 
+                                                     DI_Npy 
+                                                        206 
+                                                    DI_Pdyn 
+                                                        542 
+                                                    DI_Rorb 
+                                                       1479 
+Differentiation-committed oligodendrocyte precursors (COPs) 
+                                                        716 
+                                            Ependymal cells 
+                                                        495 
+                         Infiltrating, bordering leukocytes 
+                                                        378 
+                           Macrophages, chemotaxis-inducing 
+                                                       1480 
+                                  Macrophages, inflammatory 
+                                                       1093 
+                              Mature oligodendrocytes (MOL) 
+                                                       5045 
+                    Mature oligodendrocytes (MOL), ischemic 
+                                                       2628 
+                                                        MEL 
+                                                        495 
+                                                        MEP 
+                                                        306 
+                                                         MI 
+                                                        575 
+                                                  Microglia 
+                                                       8255 
+                     Myelin forming oligodendrocytes (MFOL) 
+                                                       7984 
+                                          Myeloid, dividing 
+                                                        263 
+                                          Neural stem cells 
+                                                         58 
+                       Newly formed oligodendrocytes (NFOL) 
+                                                       2219 
+                                                NK, T cells 
+                                                        261 
+                     Oligodendrocytes precursor cells (OPC) 
+                                                       1495 
+            Oligodendrocytes precursor cells (OPC), cycling 
+                                                        153 
+    Oligodendrocytes precursor cells (OPC), differentiating 
+                                                        435 
+                                                  Pericytes 
+                                                        123 
+                                                         V1 
+                                                        602 
+                                 Vascular endothelial cells 
+                                                        614 
+                         Vascular endothelial cells, venous 
+                                                         88 
+                              Vascular leptomeningeal cells 
+                                                       3384 
+                 Vascular leptomeningeal cells, ECM forming 
+                                                        273 
+                                                VCL_V0d_V2b 
+                                                        337 
+                                               VEL_V2a_Vsx2 
+                                                         24 
+                                                        VEP 
+                                                        759 
+                                                     VEP_V0 
+                                                         35 
+[1] 17043 24840
+
+                                        Astrocytes, fibrous 
+                                                        163 
+                                   Astrocytes, protoplasmic 
+                                                        542 
+                                       Astrocytes, reactive 
+                                                         98 
+                                                    B cells 
+                                                         74 
+                                             DE_Cpne4_Prkcg 
+                                                        706 
+                                                     DE_Maf 
+                                                        624 
+                                                    DE_Reln 
+                                                        122 
+                                                   DE_Rreb1 
+                                                        210 
+                                               DE_Sox5_Tac1 
+                                                       1438 
+                                               DE_Sox5_Tac2 
+                                                        433 
+                                                     DI_Npy 
+                                                        218 
+                                                    DI_Pdyn 
+                                                        417 
+                                                    DI_Rorb 
+                                                       1288 
+Differentiation-committed oligodendrocyte precursors (COPs) 
+                                                         55 
+                                            Ependymal cells 
+                                                        184 
+                              Mature oligodendrocytes (MOL) 
+                                                       3922 
+                    Mature oligodendrocytes (MOL), ischemic 
+                                                       2328 
+                                                        MEL 
+                                                        501 
+                                                        MEP 
+                                                        291 
+                                                         MI 
+                                                        518 
+                                                  Microglia 
+                                                        586 
+                     Myelin forming oligodendrocytes (MFOL) 
+                                                       5897 
+                                          Neural stem cells 
+                                                         86 
+                       Newly formed oligodendrocytes (NFOL) 
+                                                        508 
+                                                NK, T cells 
+                                                         48 
+                     Oligodendrocytes precursor cells (OPC) 
+                                                        748 
+    Oligodendrocytes precursor cells (OPC), differentiating 
+                                                         55 
+                                                  Pericytes 
+                                                         95 
+                                                         V1 
+                                                        574 
+                                 Vascular endothelial cells 
+                                                        310 
+                         Vascular endothelial cells, venous 
+                                                         64 
+                              Vascular leptomeningeal cells 
+                                                        496 
+                 Vascular leptomeningeal cells, ECM forming 
+                                                         79 
+                                                VCL_V0d_V2b 
+                                                        306 
+                                                        VEP 
+                                                        811 
+                                                     VEP_V0 
+                                                         45 
+
+                                        Astrocytes, fibrous 
+                                                        163 
+                                   Astrocytes, protoplasmic 
+                                                        542 
+                                       Astrocytes, reactive 
+                                                         98 
+                                                    B cells 
+                                                         74 
+                                             DE_Cpne4_Prkcg 
+                                                        706 
+                                                     DE_Maf 
+                                                        624 
+                                                    DE_Reln 
+                                                        122 
+                                                   DE_Rreb1 
+                                                        210 
+                                               DE_Sox5_Tac1 
+                                                       1438 
+                                               DE_Sox5_Tac2 
+                                                        433 
+                                                     DI_Npy 
+                                                        218 
+                                                    DI_Pdyn 
+                                                        417 
+                                                    DI_Rorb 
+                                                       1288 
+Differentiation-committed oligodendrocyte precursors (COPs) 
+                                                         55 
+                                            Ependymal cells 
+                                                        184 
+                              Mature oligodendrocytes (MOL) 
+                                                       3922 
+                    Mature oligodendrocytes (MOL), ischemic 
+                                                       2328 
+                                                        MEL 
+                                                        501 
+                                                        MEP 
+                                                        291 
+                                                         MI 
+                                                        518 
+                                                  Microglia 
+                                                        586 
+                     Myelin forming oligodendrocytes (MFOL) 
+                                                       5897 
+                                          Neural stem cells 
+                                                         86 
+                       Newly formed oligodendrocytes (NFOL) 
+                                                        508 
+                                                NK, T cells 
+                                                         48 
+                     Oligodendrocytes precursor cells (OPC) 
+                                                        748 
+    Oligodendrocytes precursor cells (OPC), differentiating 
+                                                         55 
+                                                  Pericytes 
+                                                         95 
+                                                         V1 
+                                                        574 
+                                 Vascular endothelial cells 
+                                                        310 
+                         Vascular endothelial cells, venous 
+                                                         64 
+                              Vascular leptomeningeal cells 
+                                                        496 
+                 Vascular leptomeningeal cells, ECM forming 
+                                                         79 
+                                                VCL_V0d_V2b 
+                                                        306 
+                                                        VEP 
+                                                        811 
+                                                     VEP_V0 
+                                                         45 
+starting worker pid=4058739 on localhost:11400 at 15:46:26.455
+starting worker pid=4058783 on localhost:11400 at 15:46:27.265
+starting worker pid=4058827 on localhost:11400 at 15:46:28.311
+starting worker pid=4058871 on localhost:11400 at 15:46:29.119
+starting worker pid=4059098 on localhost:11400 at 15:49:41.074
+starting worker pid=4059142 on localhost:11400 at 15:49:41.877
+starting worker pid=4059186 on localhost:11400 at 15:49:42.705
+starting worker pid=4059230 on localhost:11400 at 15:49:43.536
+starting worker pid=4059416 on localhost:11400 at 15:52:58.473
+starting worker pid=4059462 on localhost:11400 at 15:52:59.269
+starting worker pid=4059506 on localhost:11400 at 15:53:00.077
+starting worker pid=4059550 on localhost:11400 at 15:53:00.874
+starting worker pid=4059807 on localhost:11400 at 15:56:16.192
+starting worker pid=4059851 on localhost:11400 at 15:56:17.010
+starting worker pid=4059895 on localhost:11400 at 15:56:17.825
+starting worker pid=4059939 on localhost:11400 at 15:56:18.632
+starting worker pid=4060142 on localhost:11400 at 15:59:36.299
+starting worker pid=4060186 on localhost:11400 at 15:59:37.126
+starting worker pid=4060230 on localhost:11400 at 15:59:37.939
+starting worker pid=4060274 on localhost:11400 at 15:59:38.733
+starting worker pid=4060471 on localhost:11400 at 16:02:57.938
+starting worker pid=4060515 on localhost:11400 at 16:02:58.869
+starting worker pid=4060559 on localhost:11400 at 16:02:59.692
+starting worker pid=4060604 on localhost:11400 at 16:03:00.504
+starting worker pid=4060864 on localhost:11400 at 16:06:18.251
+starting worker pid=4060908 on localhost:11400 at 16:06:19.061
+starting worker pid=4060952 on localhost:11400 at 16:06:19.874
+starting worker pid=4060996 on localhost:11400 at 16:06:20.677
+starting worker pid=4061190 on localhost:11400 at 16:09:39.022
+starting worker pid=4061234 on localhost:11400 at 16:09:39.827
+starting worker pid=4061278 on localhost:11400 at 16:09:40.640
+starting worker pid=4061322 on localhost:11400 at 16:09:41.453
+starting worker pid=4061507 on localhost:11400 at 16:12:59.314
+starting worker pid=4061551 on localhost:11400 at 16:13:00.173
+starting worker pid=4061595 on localhost:11400 at 16:13:01.798
+starting worker pid=4061679 on localhost:11400 at 16:13:02.675
+
+                                        Astrocytes, fibrous 
+                                                        163 
+                                   Astrocytes, protoplasmic 
+                                                        542 
+                                       Astrocytes, reactive 
+                                                         98 
+                                                    B cells 
+                                                         74 
+                                             DE_Cpne4_Prkcg 
+                                                        706 
+                                                     DE_Maf 
+                                                        624 
+                                                    DE_Reln 
+                                                        122 
+                                                   DE_Rreb1 
+                                                        210 
+                                               DE_Sox5_Tac1 
+                                                       1438 
+                                               DE_Sox5_Tac2 
+                                                        433 
+                                                     DI_Npy 
+                                                        218 
+                                                    DI_Pdyn 
+                                                        417 
+                                                    DI_Rorb 
+                                                       1288 
+Differentiation-committed oligodendrocyte precursors (COPs) 
+                                                         55 
+                                            Ependymal cells 
+                                                        184 
+                              Mature oligodendrocytes (MOL) 
+                                                       3922 
+                    Mature oligodendrocytes (MOL), ischemic 
+                                                       2328 
+                                                        MEL 
+                                                        501 
+                                                        MEP 
+                                                        291 
+                                                         MI 
+                                                        518 
+                                                  Microglia 
+                                                        586 
+                     Myelin forming oligodendrocytes (MFOL) 
+                                                       5897 
+                                          Neural stem cells 
+                                                         86 
+                       Newly formed oligodendrocytes (NFOL) 
+                                                        508 
+                                                NK, T cells 
+                                                         48 
+                     Oligodendrocytes precursor cells (OPC) 
+                                                        748 
+    Oligodendrocytes precursor cells (OPC), differentiating 
+                                                         55 
+                                                  Pericytes 
+                                                         95 
+                                                         V1 
+                                                        574 
+                                 Vascular endothelial cells 
+                                                        310 
+                         Vascular endothelial cells, venous 
+                                                         64 
+                              Vascular leptomeningeal cells 
+                                                        496 
+                 Vascular leptomeningeal cells, ECM forming 
+                                                         79 
+                                                VCL_V0d_V2b 
+                                                        306 
+                                                        VEP 
+                                                        811 
+                                                     VEP_V0 
+                                                         45 
+starting worker pid=4061899 on localhost:11400 at 16:16:10.497
+starting worker pid=4061943 on localhost:11400 at 16:16:11.333
+starting worker pid=4061987 on localhost:11400 at 16:16:12.131
+starting worker pid=4062031 on localhost:11400 at 16:16:12.937
+starting worker pid=4062211 on localhost:11400 at 16:19:38.329
+starting worker pid=4062255 on localhost:11400 at 16:19:39.134
+starting worker pid=4062299 on localhost:11400 at 16:19:39.934
+starting worker pid=4062343 on localhost:11400 at 16:19:40.752
+starting worker pid=4122507 on localhost:11400 at 16:23:13.409
+starting worker pid=4122551 on localhost:11400 at 16:23:14.212
+starting worker pid=4122595 on localhost:11400 at 16:23:15.011
+starting worker pid=4122640 on localhost:11400 at 16:23:15.814
+starting worker pid=4123633 on localhost:11400 at 16:26:52.140
+starting worker pid=4123677 on localhost:11400 at 16:26:52.950
+starting worker pid=4123721 on localhost:11400 at 16:26:53.757
+starting worker pid=4123765 on localhost:11400 at 16:26:54.588
+starting worker pid=4124674 on localhost:11400 at 16:30:33.334
+starting worker pid=4124718 on localhost:11400 at 16:30:34.139
+starting worker pid=4124762 on localhost:11400 at 16:30:34.953
+starting worker pid=4124806 on localhost:11400 at 16:30:35.771
+starting worker pid=4125346 on localhost:11400 at 16:34:11.771
+starting worker pid=4125390 on localhost:11400 at 16:34:12.557
+starting worker pid=4125434 on localhost:11400 at 16:34:13.355
+starting worker pid=4125478 on localhost:11400 at 16:34:14.151
+starting worker pid=4125836 on localhost:11400 at 16:37:50.180
+starting worker pid=4125881 on localhost:11400 at 16:37:50.985
+starting worker pid=4125926 on localhost:11400 at 16:37:51.794
+starting worker pid=4125970 on localhost:11400 at 16:37:52.590
+starting worker pid=4126323 on localhost:11400 at 16:41:28.244
+starting worker pid=4126367 on localhost:11400 at 16:41:29.040
+starting worker pid=4126411 on localhost:11400 at 16:41:29.830
+starting worker pid=4126455 on localhost:11400 at 16:41:30.632
+starting worker pid=4126715 on localhost:11400 at 16:45:05.356
+starting worker pid=4126759 on localhost:11400 at 16:45:06.161
+starting worker pid=4126803 on localhost:11400 at 16:45:06.958
+starting worker pid=4126847 on localhost:11400 at 16:45:07.758
+
+                                        Astrocytes, fibrous 
+                                                        960 
+                                   Astrocytes, protoplasmic 
+                                                        870 
+                                       Astrocytes, reactive 
+                                                        796 
+                                                    B cells 
+                                                         97 
+                                                      CSF_N 
+                                                         54 
+                                             DE_Cpne4_Prkcg 
+                                                        822 
+                                                     DE_Maf 
+                                                        654 
+                                                    DE_Reln 
+                                                        143 
+                                                   DE_Rreb1 
+                                                        232 
+                                               DE_Sox5_Tac1 
+                                                       1648 
+                                               DE_Sox5_Tac2 
+                                                        540 
+                                                     DI_Npy 
+                                                        206 
+                                                    DI_Pdyn 
+                                                        542 
+                                                    DI_Rorb 
+                                                       1479 
+Differentiation-committed oligodendrocyte precursors (COPs) 
+                                                        716 
+                                            Ependymal cells 
+                                                        495 
+                         Infiltrating, bordering leukocytes 
+                                                        378 
+                           Macrophages, chemotaxis-inducing 
+                                                       1480 
+                                  Macrophages, inflammatory 
+                                                       1093 
+                              Mature oligodendrocytes (MOL) 
+                                                       5045 
+                    Mature oligodendrocytes (MOL), ischemic 
+                                                       2628 
+                                                        MEL 
+                                                        495 
+                                                        MEP 
+                                                        306 
+                                                         MI 
+                                                        575 
+                                                  Microglia 
+                                                       8255 
+                     Myelin forming oligodendrocytes (MFOL) 
+                                                       7984 
+                                          Myeloid, dividing 
+                                                        263 
+                                          Neural stem cells 
+                                                         58 
+                       Newly formed oligodendrocytes (NFOL) 
+                                                       2219 
+                                                NK, T cells 
+                                                        261 
+                     Oligodendrocytes precursor cells (OPC) 
+                                                       1495 
+            Oligodendrocytes precursor cells (OPC), cycling 
+                                                        153 
+    Oligodendrocytes precursor cells (OPC), differentiating 
+                                                        435 
+                                                  Pericytes 
+                                                        123 
+                                                         V1 
+                                                        602 
+                                 Vascular endothelial cells 
+                                                        614 
+                         Vascular endothelial cells, venous 
+                                                         88 
+                              Vascular leptomeningeal cells 
+                                                       3384 
+                 Vascular leptomeningeal cells, ECM forming 
+                                                        273 
+                                                VCL_V0d_V2b 
+                                                        337 
+                                                        VEP 
+                                                        759 
+                                                     VEP_V0 
+                                                         35 
+starting worker pid=4171207 on localhost:11400 at 16:48:49.774
+starting worker pid=4171676 on localhost:11400 at 16:48:50.608
+starting worker pid=4171905 on localhost:11400 at 16:48:51.790
+starting worker pid=4172084 on localhost:11400 at 16:48:52.972
+starting worker pid=52156 on localhost:11400 at 16:52:23.023
+starting worker pid=52974 on localhost:11400 at 16:52:23.937
+starting worker pid=53981 on localhost:11400 at 16:52:24.855
+starting worker pid=54665 on localhost:11400 at 16:52:25.754
+starting worker pid=160461 on localhost:11400 at 16:55:56.195
+starting worker pid=160530 on localhost:11400 at 16:55:57.106
+starting worker pid=160607 on localhost:11400 at 16:55:58.015
+starting worker pid=160672 on localhost:11400 at 16:55:58.960
+starting worker pid=201288 on localhost:11400 at 16:59:44.541
+starting worker pid=201462 on localhost:11400 at 16:59:45.473
+starting worker pid=201660 on localhost:11400 at 16:59:46.376
+starting worker pid=201734 on localhost:11400 at 16:59:47.315
+starting worker pid=241999 on localhost:11400 at 17:03:39.889
+starting worker pid=242178 on localhost:11400 at 17:03:40.777
+starting worker pid=242479 on localhost:11400 at 17:03:41.647
+starting worker pid=242803 on localhost:11400 at 17:03:42.563
+starting worker pid=283184 on localhost:11400 at 17:07:32.676
+starting worker pid=283525 on localhost:11400 at 17:07:33.601
+starting worker pid=283681 on localhost:11400 at 17:07:34.500
+starting worker pid=283876 on localhost:11400 at 17:07:35.410
+starting worker pid=325369 on localhost:11400 at 17:11:34.289
+starting worker pid=325716 on localhost:11400 at 17:11:35.206
+starting worker pid=326039 on localhost:11400 at 17:11:36.108
+starting worker pid=326127 on localhost:11400 at 17:11:36.985
+starting worker pid=326835 on localhost:11400 at 17:15:06.516
+starting worker pid=326879 on localhost:11400 at 17:15:07.317
+starting worker pid=326923 on localhost:11400 at 17:15:08.127
+starting worker pid=326967 on localhost:11400 at 17:15:08.946
+
+                                        Astrocytes, fibrous 
+                                                        960 
+                                   Astrocytes, protoplasmic 
+                                                        870 
+                                       Astrocytes, reactive 
+                                                        796 
+                                                    B cells 
+                                                         97 
+                                                      CSF_N 
+                                                         54 
+                                             DE_Cpne4_Prkcg 
+                                                        822 
+                                                     DE_Maf 
+                                                        654 
+                                                    DE_Reln 
+                                                        143 
+                                                   DE_Rreb1 
+                                                        232 
+                                               DE_Sox5_Tac1 
+                                                       1648 
+                                               DE_Sox5_Tac2 
+                                                        540 
+                                                     DI_Npy 
+                                                        206 
+                                                    DI_Pdyn 
+                                                        542 
+                                                    DI_Rorb 
+                                                       1479 
+Differentiation-committed oligodendrocyte precursors (COPs) 
+                                                        716 
+                                            Ependymal cells 
+                                                        495 
+                         Infiltrating, bordering leukocytes 
+                                                        378 
+                           Macrophages, chemotaxis-inducing 
+                                                       1480 
+                                  Macrophages, inflammatory 
+                                                       1093 
+                              Mature oligodendrocytes (MOL) 
+                                                       5045 
+                    Mature oligodendrocytes (MOL), ischemic 
+                                                       2628 
+                                                        MEL 
+                                                        495 
+                                                        MEP 
+                                                        306 
+                                                         MI 
+                                                        575 
+                                                  Microglia 
+                                                       8255 
+                     Myelin forming oligodendrocytes (MFOL) 
+                                                       7984 
+                                          Myeloid, dividing 
+                                                        263 
+                                          Neural stem cells 
+                                                         58 
+                       Newly formed oligodendrocytes (NFOL) 
+                                                       2219 
+                                                NK, T cells 
+                                                        261 
+                     Oligodendrocytes precursor cells (OPC) 
+                                                       1495 
+            Oligodendrocytes precursor cells (OPC), cycling 
+                                                        153 
+    Oligodendrocytes precursor cells (OPC), differentiating 
+                                                        435 
+                                                  Pericytes 
+                                                        123 
+                                                         V1 
+                                                        602 
+                                 Vascular endothelial cells 
+                                                        614 
+                         Vascular endothelial cells, venous 
+                                                         88 
+                              Vascular leptomeningeal cells 
+                                                       3384 
+                 Vascular leptomeningeal cells, ECM forming 
+                                                        273 
+                                                VCL_V0d_V2b 
+                                                        337 
+                                                        VEP 
+                                                        759 
+                                                     VEP_V0 
+                                                         35 
+starting worker pid=327148 on localhost:11400 at 17:18:37.174
+starting worker pid=327192 on localhost:11400 at 17:18:37.976
+starting worker pid=327237 on localhost:11400 at 17:18:38.781
+starting worker pid=327281 on localhost:11400 at 17:18:39.594
+starting worker pid=327517 on localhost:11400 at 17:22:04.352
+starting worker pid=327561 on localhost:11400 at 17:22:05.156
+starting worker pid=327605 on localhost:11400 at 17:22:05.957
+starting worker pid=327649 on localhost:11400 at 17:22:06.762
+starting worker pid=327867 on localhost:11400 at 17:25:31.376
+starting worker pid=327911 on localhost:11400 at 17:25:32.175
+starting worker pid=327955 on localhost:11400 at 17:25:32.969
+starting worker pid=327999 on localhost:11400 at 17:25:33.773
+starting worker pid=328223 on localhost:11400 at 17:29:02.308
+starting worker pid=328268 on localhost:11400 at 17:29:03.141
+starting worker pid=328312 on localhost:11400 at 17:29:03.954
+starting worker pid=328356 on localhost:11400 at 17:29:04.757
+starting worker pid=328542 on localhost:11400 at 17:32:33.247
+starting worker pid=328586 on localhost:11400 at 17:32:34.045
+starting worker pid=328630 on localhost:11400 at 17:32:34.844
+starting worker pid=328674 on localhost:11400 at 17:32:35.641
+starting worker pid=328942 on localhost:11400 at 17:36:05.983
+starting worker pid=328986 on localhost:11400 at 17:36:06.781
+starting worker pid=329030 on localhost:11400 at 17:36:07.580
+starting worker pid=329074 on localhost:11400 at 17:36:08.379
+starting worker pid=329259 on localhost:11400 at 17:39:33.928
+starting worker pid=329303 on localhost:11400 at 17:39:34.746
+starting worker pid=329347 on localhost:11400 at 17:39:35.553
+starting worker pid=329391 on localhost:11400 at 17:39:36.351
+starting worker pid=329620 on localhost:11400 at 17:43:04.033
+starting worker pid=329664 on localhost:11400 at 17:43:04.826
+starting worker pid=329708 on localhost:11400 at 17:43:05.626
+starting worker pid=329752 on localhost:11400 at 17:43:06.443
+[1] "RCTD analysis completed successfully."
+All processes completed successfully.

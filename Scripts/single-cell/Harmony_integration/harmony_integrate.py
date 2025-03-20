@@ -100,4 +100,82 @@ sc.tl.umap(adata_combined)
 sc.pl.umap(adata_combined, color=["sample"], wspace=0.5)
 plt.savefig(os.path.join(joined_output_base_dir, "UMAP_integrated.png"), bbox_inches='tight')
 plt.close()
+            
+#Rename scDblFinder_class as categorical to correctly plot
+adata_combined.obs["scDblFinder_class"] = pd.Categorical(adata_combined.obs["scDblFinder_class"])
+sc.pl.umap(
+    adata_combined,
+    wspace=0.5,
+    color=["scDblFinder_score", "scDblFinder_class"],
+)
+plt.savefig(os.path.join(joined_output_base_dir, "UMAP_doublet.png"))
+plt.close()
+
+sc.pl.umap(
+    adata_combined,
+    wspace=0.5,
+    color=["total_counts", "n_genes_by_counts","pct_counts_mt", "pct_counts_ribo"],
+)
+plt.savefig(os.path.join(joined_output_base_dir, "UMAP_QC.png"))
+plt.close()
+
+#Clustering
+sc.tl.leiden(adata_combined, flavor="leidenalg", n_iterations=-1, resolution=0.2, key_added="leiden_0.2")
+sc.tl.leiden(adata_combined, flavor="leidenalg", n_iterations=-1, resolution=0.4, key_added="leiden_0.4")
+sc.tl.leiden(adata_combined, flavor="leidenalg", n_iterations=-1, resolution=0.8, key_added="leiden_0.8")
+sc.tl.leiden(adata_combined, flavor="leidenalg", n_iterations=-1, resolution=1.2, key_added="leiden_1.2")
+            
+sc.pl.umap(
+    adata_combined,
+    wspace=0.5,
+    color=[
+        "leiden_0.2",
+        "leiden_0.4",
+    ]
+)
+plt.savefig(os.path.join(joined_output_base_dir, 'UMAP_clustering_lowres.png'))
+plt.close()
+
+sc.pl.umap(
+    adata_combined,
+    wspace=0.5,
+    color=[
+        "leiden_0.8",
+        "leiden_1.2",
+    ]
+)
+plt.savefig(os.path.join(joined_output_base_dir, 'UMAP_clustering_hires.png'))
+plt.close()
+
+with open(os.path.join(joined_output_base_dir, 'clustering_info.txt'), 'w') as f:
+    if adata_combined.raw is not None:
+        f.write(f"Size of adata.raw for joined: {adata_combined.raw.shape}\n")
+
+    for resolution in ["0.2", "0.4", "0.8", "1.2"]:
+        cluster_key = f"leiden_{resolution}"
+
+        nre_cells = adata_combined.obs[cluster_key].value_counts()
+        total_cells = len(adata_combined.obs)
+        pct_cells = (nre_cells / total_cells) * 100
+
+        f.write(f"\nSummary statistics for each cluster (resolution {resolution}):\n")
+
+        # Grouping by clusters and computing statistics for total counts and number of genes
+        cluster_stats = adata_combined.obs.groupby(cluster_key).agg(
+            avg_total_counts=pd.NamedAgg(column="total_counts", aggfunc="mean"),
+            avg_genes=pd.NamedAgg(column="n_genes_by_counts", aggfunc="mean"),
+            avg_pct_counts_mt=pd.NamedAgg(column="pct_counts_mt", aggfunc="mean"),
+            avg_pct_counts_ribo=pd.NamedAgg(column="pct_counts_ribo", aggfunc="mean"),
+            doublet_counts=pd.NamedAgg(column="scDblFinder_class", aggfunc=lambda x: (x != 0).sum()),
+        )
+        cluster_stats["nre_cells"] = nre_cells
+        cluster_stats["pct_cells"] = pct_cells
+        #Reorder columns
+        cluster_stats = cluster_stats[['nre_cells', 'pct_cells', 'doublet_counts', 'avg_total_counts', 'avg_genes', 'avg_pct_counts_mt', 'avg_pct_counts_ribo']]
+        # Optionally, you can set display options for better readability
+        pd.set_option('display.max_colwidth', None)  # Ensure no truncation of column widths
+        formatted_cluster_stats = cluster_stats.to_string()
+        f.write(f"{formatted_cluster_stats}\n")
+
+
 adata_combined.write(os.path.join(joined_base_dir, "adata_integrated.h5ad"))

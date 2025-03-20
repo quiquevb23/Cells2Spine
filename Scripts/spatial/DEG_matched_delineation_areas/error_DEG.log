@@ -1,0 +1,18 @@
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_matched_delineation_areas/DEG_areas.py:111: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  grouped = df.T.groupby(metadata['sample']).sum().T  # Transpose before groupby, then transpose back
+/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_matched_delineation_areas/DEG_areas.py:119: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  pseudobulk_metadata["condition"] = metadata.groupby("sample")["condition"].first().values
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/aligned_df.py:68: ImplicitModificationWarning: Transforming to str index.
+  warnings.warn("Transforming to str index.", ImplicitModificationWarning)
+Traceback (most recent call last):
+  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_matched_delineation_areas/DEG_areas.py", line 282, in <module>
+    do_DEA(combined_adata, area_output_dir)
+  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_matched_delineation_areas/DEG_areas.py", line 158, in do_DEA
+    edgeR = importr("edgeR")
+  File "/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/rpy2/robjects/packages.py", line 472, in importr
+    raise PackageNotInstalledError(
+rpy2.robjects.packages.PackageNotInstalledError: The R package "edgeR" is not installed.

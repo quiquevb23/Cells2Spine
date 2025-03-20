@@ -1,4 +1,6 @@
 Outputs
+Scripts/CellBender/Sample_1/ckpt.tar.gz
+Scripts/CellBender/Sample_3/ckpt.tar.gz
 Scripts/spatial/DEG_among_domains/tmp/
 Scripts/spatial/StLearn/tmp/
 Scripts/spatial/DEG_among_domains/test/

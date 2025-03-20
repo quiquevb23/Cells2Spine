@@ -1,12 +1,6 @@
 adata_saved
-Plots saved for Sample_1:
-- Agreement Heatmap: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_1/Comparison_Annotations/Sample_1_agreement_heatmap.png
-- Disagreement Heatmap: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_1/Comparison_Annotations/Sample_1_disagreement_heatmap.png
-- Scatter Plot: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_1/Comparison_Annotations/Sample_1_scatter_plot.png
-- Entropy Plot: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_1/Comparison_Annotations/Sample_1_entropy_plot.png
-adata_saved
-Plots saved for Sample_3:
-- Agreement Heatmap: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_3/Comparison_Annotations/Sample_3_agreement_heatmap.png
-- Disagreement Heatmap: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_3/Comparison_Annotations/Sample_3_disagreement_heatmap.png
-- Scatter Plot: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_3/Comparison_Annotations/Sample_3_scatter_plot.png
-- Entropy Plot: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_aggr/indiv_samples/Sample_3/Comparison_Annotations/Sample_3_entropy_plot.png
+Plots saved for joined:
+- Agreement Heatmap: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_join/joined/Comparison_Annotations/joined_agreement_heatmap.png
+- Disagreement Heatmap: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_join/joined/Comparison_Annotations/joined_disagreement_heatmap.png
+- Scatter Plot: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_join/joined/Comparison_Annotations/joined_scatter_plot.png
+- Entropy Plot: /home/quiquevb/Cells2Spine/Cells2Spine/Outputs/single-cell/full_seq_join/joined/Comparison_Annotations/joined_entropy_plot.png

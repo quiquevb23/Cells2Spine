@@ -1,17 +1,17 @@
 🍳 Preparing data before training
-✂️ 686 non-expressed genes are filtered out
-🔬 Input data has 24952 cells and 16357 genes
+✂️ 354 non-expressed genes are filtered out
+🔬 Input data has 74581 cells and 16689 genes
 ⚖️ Scaling input data
 🏋️ Training data using SGD logistic regression
 🔎 Selecting features
-🧬 2937 features are selected
+🧬 2365 features are selected
 🏋️ Starting the second round of training
 🏋️ Training data using logistic regression
 ✅ Model training done!
 WARNING: adata.X seems to be already log-transformed.
-🔬 Input data has 41231 cells and 26712 genes
+🔬 Input data has 49249 cells and 26027 genes
 🔗 Matching reference genes in the model
-🧬 2768 features used for prediction
+🧬 2229 features used for prediction
 ⚖️ Scaling input data
 🖋️ Predicting labels
 ✅ Prediction done!
@@ -42,31 +42,16 @@ WARNING: It seems you use rank_genes_groups on the raw count data. Please logari
   self.stats[group_name, "pvals_adj"] = pvals_adj[global_indices]
 /home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:461: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
   self.stats[group_name, "logfoldchanges"] = np.log2(
-WARNING: dendrogram data not found (using key=dendrogram_leiden_0.4). Running `sc.tl.dendrogram` with default parameters. For fine tuning it is recommended to run `sc.tl.dendrogram` independently.
-🍳 Preparing data before training
-✂️ 447 non-expressed genes are filtered out
-🔬 Input data has 49629 cells and 16596 genes
-⚖️ Scaling input data
-🏋️ Training data using SGD logistic regression
-🔎 Selecting features
-🧬 2492 features are selected
-🏋️ Starting the second round of training
-🏋️ Training data using logistic regression
-✅ Model training done!
-WARNING: adata.X seems to be already log-transformed.
-🔬 Input data has 43568 cells and 26818 genes
-🔗 Matching reference genes in the model
-🧬 2346 features used for prediction
-⚖️ Scaling input data
-🖋️ Predicting labels
-✅ Prediction done!
-👀 Detected a neighborhood graph in the input object, will run over-clustering on the basis of it
-⛓️ Over-clustering input data with resolution set to 20
-🗳️ Majority voting the predictions
-✅ Majority voting done!
-WARNING: It seems you use rank_genes_groups on the raw count data. Please logarithmize your data before calling rank_genes_groups.
-WARNING: dendrogram data not found (using key=dendrogram_predicted_labels). Running `sc.tl.dendrogram` with default parameters. For fine tuning it is recommended to run `sc.tl.dendrogram` independently.
-WARNING: It seems you use rank_genes_groups on the raw count data. Please logarithmize your data before calling rank_genes_groups.
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:435: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "names"] = self.var_names[global_indices]
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:437: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "scores"] = scores[global_indices]
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:440: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals"] = pvals[global_indices]
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:450: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "pvals_adj"] = pvals_adj[global_indices]
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:461: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  self.stats[group_name, "logfoldchanges"] = np.log2(
 /home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:435: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
   self.stats[group_name, "names"] = self.var_names[global_indices]
 /home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/scanpy/tools/_rank_genes_groups.py:437: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`

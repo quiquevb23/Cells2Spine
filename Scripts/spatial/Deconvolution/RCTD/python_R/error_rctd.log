@@ -1,0 +1,45 @@
+R[write to console]: 
+Attaching package: ‘renv’
+
+
+R[write to console]: The following objects are masked from ‘package:stats’:
+
+    embed, update
+
+
+R[write to console]: The following objects are masked from ‘package:utils’:
+
+    history, upgrade
+
+
+R[write to console]: The following objects are masked from ‘package:base’:
+
+    autoload, load, remove
+
+
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+Traceback (most recent call last):
+  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Deconvolution/RCTD/rctd.py", line 130, in <module>
+    make_ref(adata_ref_healthy, single_cell_ref_h5_dir)
+  File "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Deconvolution/RCTD/rctd.py", line 78, in make_ref
+    ro.r(r_script)
+  File "/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/rpy2/robjects/__init__.py", line 458, in __call__
+    p = rinterface.parse(string)
+  File "/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/rpy2/rinterface_lib/conversion.py", line 45, in _
+    cdata = function(*args, **kwargs)
+  File "/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/rpy2/rinterface.py", line 110, in parse
+    res = _rinterface._parse(robj.__sexp__._cdata, num, rmemory)
+  File "/home/quiquevb/.conda/envs/rpy2_env/lib/python3.9/site-packages/rpy2/rinterface_lib/_rinterface_capi.py", line 720, in _parse
+    raise RParsingError('Parsing status not OK',
+rpy2.rinterface_lib._rinterface_capi.RParsingError: Parsing status not OK - PARSING_STATUS.PARSE_ERROR

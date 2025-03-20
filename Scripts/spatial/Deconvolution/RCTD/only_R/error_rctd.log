@@ -1,0 +1,736 @@
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1754: UserWarning: Observation names are not unique. To make them unique, call `.obs_names_make_unique`.
+  utils.warn_names_duplicates("obs")
+/home/quiquevb/.conda/envs/scanpy-env/lib/python3.11/site-packages/anndata/_core/anndata.py:1756: UserWarning: Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+  utils.warn_names_duplicates("var")
+
+Attaching package: ‘renv’
+
+The following objects are masked from ‘package:stats’:
+
+    embed, update
+
+The following objects are masked from ‘package:utils’:
+
+    history, upgrade
+
+The following objects are masked from ‘package:base’:
+
+    autoload, load, remove, use
+
+Warning messages:
+1: In load_reference_data("healthy", tmp_dir) :
+  Duplicate gene names detected! Making names unique.
+2: In load_reference_data("healthy", tmp_dir) :
+  Duplicate gene names detected! Making names unique.
+3: In load_reference_data("healthy", tmp_dir) :
+  Duplicate barcodes in metadata detected! Making them unique.
+4: In check_UMI(nUMI, "Reference", require_2d = T, require_int = require_int,  :
+  Reference: some nUMI values are less than min_UMI = 100, and these cells will be removed. Optionally, you may lower the min_UMI parameter.
+Warning messages:
+1: In load_reference_data("injured", tmp_dir) :
+  Duplicate gene names detected! Making names unique.
+2: In load_reference_data("injured", tmp_dir) :
+  Duplicate gene names detected! Making names unique.
+3: In load_reference_data("injured", tmp_dir) :
+  Duplicate barcodes in metadata detected! Making them unique.
+Begin: process_cell_type_info
+process_cell_type_info: number of cells in reference: 24840
+process_cell_type_info: number of genes in reference: 17043
+End: process_cell_type_info
+create.RCTD: getting regression differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 280
+get_de_genes: Astrocytes, protoplasmic found DE genes: 301
+get_de_genes: Astrocytes, reactive found DE genes: 313
+get_de_genes: B cells found DE genes: 489
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 187
+get_de_genes: DE_Maf found DE genes: 148
+get_de_genes: DE_Reln found DE genes: 171
+get_de_genes: DE_Rreb1 found DE genes: 138
+get_de_genes: DE_Sox5_Tac1 found DE genes: 149
+get_de_genes: DE_Sox5_Tac2 found DE genes: 177
+get_de_genes: DI_Npy found DE genes: 139
+get_de_genes: DI_Pdyn found DE genes: 123
+get_de_genes: DI_Rorb found DE genes: 126
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 230
+get_de_genes: Ependymal cells found DE genes: 314
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 379
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 378
+get_de_genes: MEL found DE genes: 90
+get_de_genes: MEP found DE genes: 107
+get_de_genes: MI found DE genes: 114
+get_de_genes: Microglia found DE genes: 547
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 360
+get_de_genes: Neural stem cells found DE genes: 114
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 322
+get_de_genes: NK, T cells found DE genes: 540
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 179
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 226
+get_de_genes: Pericytes found DE genes: 314
+get_de_genes: V1 found DE genes: 143
+get_de_genes: Vascular endothelial cells found DE genes: 409
+get_de_genes: Vascular endothelial cells, venous found DE genes: 416
+get_de_genes: Vascular leptomeningeal cells found DE genes: 302
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 465
+get_de_genes: VCL_V0d_V2b found DE genes: 95
+get_de_genes: VEP found DE genes: 115
+get_de_genes: VEP_V0 found DE genes: 116
+get_de_genes: total DE genes: 3266
+create.RCTD: getting platform effect normalization differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 522
+get_de_genes: Astrocytes, protoplasmic found DE genes: 528
+get_de_genes: Astrocytes, reactive found DE genes: 546
+get_de_genes: B cells found DE genes: 929
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 356
+get_de_genes: DE_Maf found DE genes: 328
+get_de_genes: DE_Reln found DE genes: 350
+get_de_genes: DE_Rreb1 found DE genes: 341
+get_de_genes: DE_Sox5_Tac1 found DE genes: 323
+get_de_genes: DE_Sox5_Tac2 found DE genes: 337
+get_de_genes: DI_Npy found DE genes: 327
+get_de_genes: DI_Pdyn found DE genes: 291
+get_de_genes: DI_Rorb found DE genes: 327
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 439
+get_de_genes: Ependymal cells found DE genes: 533
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 630
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 657
+get_de_genes: MEL found DE genes: 301
+get_de_genes: MEP found DE genes: 299
+get_de_genes: MI found DE genes: 310
+get_de_genes: Microglia found DE genes: 1050
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 590
+get_de_genes: Neural stem cells found DE genes: 362
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 519
+get_de_genes: NK, T cells found DE genes: 1100
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 330
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 576
+get_de_genes: Pericytes found DE genes: 664
+get_de_genes: V1 found DE genes: 359
+get_de_genes: Vascular endothelial cells found DE genes: 727
+get_de_genes: Vascular endothelial cells, venous found DE genes: 791
+get_de_genes: Vascular leptomeningeal cells found DE genes: 559
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 744
+get_de_genes: VCL_V0d_V2b found DE genes: 314
+get_de_genes: VEP found DE genes: 315
+get_de_genes: VEP_V0 found DE genes: 337
+get_de_genes: total DE genes: 4863
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma =  1
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1359369.46362937
+Sigma value:  0.84
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1336291.91925918
+Sigma value:  0.69
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1318351.95111829
+Sigma value:  0.61
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1310888.73061842
+Sigma value:  0.53
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1305367.90615815
+Sigma value:  0.45
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1302258.35262945
+Sigma value:  0.41
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1301779.52632435
+Sigma value:  0.4
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1301785.0520932
+Sigma value:  0.4
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Begin: process_cell_type_info
+process_cell_type_info: number of cells in reference: 24840
+process_cell_type_info: number of genes in reference: 17043
+End: process_cell_type_info
+create.RCTD: getting regression differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 283
+get_de_genes: Astrocytes, protoplasmic found DE genes: 301
+get_de_genes: Astrocytes, reactive found DE genes: 313
+get_de_genes: B cells found DE genes: 494
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 183
+get_de_genes: DE_Maf found DE genes: 141
+get_de_genes: DE_Reln found DE genes: 172
+get_de_genes: DE_Rreb1 found DE genes: 135
+get_de_genes: DE_Sox5_Tac1 found DE genes: 151
+get_de_genes: DE_Sox5_Tac2 found DE genes: 176
+get_de_genes: DI_Npy found DE genes: 133
+get_de_genes: DI_Pdyn found DE genes: 120
+get_de_genes: DI_Rorb found DE genes: 122
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 231
+get_de_genes: Ependymal cells found DE genes: 313
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 377
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 374
+get_de_genes: MEL found DE genes: 90
+get_de_genes: MEP found DE genes: 104
+get_de_genes: MI found DE genes: 110
+get_de_genes: Microglia found DE genes: 544
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 355
+get_de_genes: Neural stem cells found DE genes: 113
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 321
+get_de_genes: NK, T cells found DE genes: 545
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 178
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 225
+get_de_genes: Pericytes found DE genes: 311
+get_de_genes: V1 found DE genes: 139
+get_de_genes: Vascular endothelial cells found DE genes: 410
+get_de_genes: Vascular endothelial cells, venous found DE genes: 417
+get_de_genes: Vascular leptomeningeal cells found DE genes: 303
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 474
+get_de_genes: VCL_V0d_V2b found DE genes: 95
+get_de_genes: VEP found DE genes: 114
+get_de_genes: VEP_V0 found DE genes: 116
+get_de_genes: total DE genes: 3263
+create.RCTD: getting platform effect normalization differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 518
+get_de_genes: Astrocytes, protoplasmic found DE genes: 527
+get_de_genes: Astrocytes, reactive found DE genes: 544
+get_de_genes: B cells found DE genes: 935
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 353
+get_de_genes: DE_Maf found DE genes: 319
+get_de_genes: DE_Reln found DE genes: 352
+get_de_genes: DE_Rreb1 found DE genes: 341
+get_de_genes: DE_Sox5_Tac1 found DE genes: 323
+get_de_genes: DE_Sox5_Tac2 found DE genes: 338
+get_de_genes: DI_Npy found DE genes: 325
+get_de_genes: DI_Pdyn found DE genes: 285
+get_de_genes: DI_Rorb found DE genes: 321
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 438
+get_de_genes: Ependymal cells found DE genes: 533
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 620
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 648
+get_de_genes: MEL found DE genes: 296
+get_de_genes: MEP found DE genes: 293
+get_de_genes: MI found DE genes: 306
+get_de_genes: Microglia found DE genes: 1047
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 585
+get_de_genes: Neural stem cells found DE genes: 358
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 518
+get_de_genes: NK, T cells found DE genes: 1103
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 330
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 570
+get_de_genes: Pericytes found DE genes: 660
+get_de_genes: V1 found DE genes: 356
+get_de_genes: Vascular endothelial cells found DE genes: 725
+get_de_genes: Vascular endothelial cells, venous found DE genes: 789
+get_de_genes: Vascular leptomeningeal cells found DE genes: 563
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 750
+get_de_genes: VCL_V0d_V2b found DE genes: 310
+get_de_genes: VEP found DE genes: 311
+get_de_genes: VEP_V0 found DE genes: 335
+get_de_genes: total DE genes: 4858
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma =  1
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1351318.54411441
+Sigma value:  0.84
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1329050.69338674
+Sigma value:  0.69
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1311849.87808373
+Sigma value:  0.61
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1304740.79293401
+Sigma value:  0.53
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1299510.99995177
+Sigma value:  0.45
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1296585.55847201
+Sigma value:  0.42
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1296182.52819758
+Sigma value:  0.41
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1296140.64713171
+Sigma value:  0.41
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Begin: process_cell_type_info
+process_cell_type_info: number of cells in reference: 49592
+process_cell_type_info: number of genes in reference: 17043
+End: process_cell_type_info
+create.RCTD: getting regression differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 272
+get_de_genes: Astrocytes, protoplasmic found DE genes: 288
+get_de_genes: Astrocytes, reactive found DE genes: 299
+get_de_genes: B cells found DE genes: 427
+get_de_genes: CSF_N found DE genes: 150
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 199
+get_de_genes: DE_Maf found DE genes: 167
+get_de_genes: DE_Reln found DE genes: 184
+get_de_genes: DE_Rreb1 found DE genes: 176
+get_de_genes: DE_Sox5_Tac1 found DE genes: 167
+get_de_genes: DE_Sox5_Tac2 found DE genes: 208
+get_de_genes: DI_Npy found DE genes: 153
+get_de_genes: DI_Pdyn found DE genes: 152
+get_de_genes: DI_Rorb found DE genes: 165
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 222
+get_de_genes: Ependymal cells found DE genes: 242
+get_de_genes: Infiltrating, bordering leukocytes found DE genes: 510
+get_de_genes: Macrophages, chemotaxis-inducing found DE genes: 525
+get_de_genes: Macrophages, inflammatory found DE genes: 593
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 376
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 363
+get_de_genes: MEL found DE genes: 139
+get_de_genes: MEP found DE genes: 142
+get_de_genes: MI found DE genes: 164
+get_de_genes: Microglia found DE genes: 558
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 369
+get_de_genes: Myeloid, dividing found DE genes: 557
+get_de_genes: Neural stem cells found DE genes: 144
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 327
+get_de_genes: NK, T cells found DE genes: 367
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 162
+get_de_genes: Oligodendrocytes precursor cells (OPC), cycling found DE genes: 201
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 161
+get_de_genes: Pericytes found DE genes: 239
+get_de_genes: V1 found DE genes: 171
+get_de_genes: Vascular endothelial cells found DE genes: 381
+get_de_genes: Vascular endothelial cells, venous found DE genes: 402
+get_de_genes: Vascular leptomeningeal cells found DE genes: 274
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 363
+get_de_genes: VCL_V0d_V2b found DE genes: 141
+get_de_genes: VEP found DE genes: 154
+get_de_genes: VEP_V0 found DE genes: 145
+get_de_genes: total DE genes: 3242
+create.RCTD: getting platform effect normalization differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 493
+get_de_genes: Astrocytes, protoplasmic found DE genes: 499
+get_de_genes: Astrocytes, reactive found DE genes: 520
+get_de_genes: B cells found DE genes: 858
+get_de_genes: CSF_N found DE genes: 288
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 379
+get_de_genes: DE_Maf found DE genes: 354
+get_de_genes: DE_Reln found DE genes: 376
+get_de_genes: DE_Rreb1 found DE genes: 392
+get_de_genes: DE_Sox5_Tac1 found DE genes: 350
+get_de_genes: DE_Sox5_Tac2 found DE genes: 371
+get_de_genes: DI_Npy found DE genes: 360
+get_de_genes: DI_Pdyn found DE genes: 325
+get_de_genes: DI_Rorb found DE genes: 366
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 429
+get_de_genes: Ependymal cells found DE genes: 470
+get_de_genes: Infiltrating, bordering leukocytes found DE genes: 1041
+get_de_genes: Macrophages, chemotaxis-inducing found DE genes: 1072
+get_de_genes: Macrophages, inflammatory found DE genes: 1138
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 631
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 642
+get_de_genes: MEL found DE genes: 382
+get_de_genes: MEP found DE genes: 351
+get_de_genes: MI found DE genes: 379
+get_de_genes: Microglia found DE genes: 1058
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 589
+get_de_genes: Myeloid, dividing found DE genes: 1112
+get_de_genes: Neural stem cells found DE genes: 334
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 533
+get_de_genes: NK, T cells found DE genes: 845
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 316
+get_de_genes: Oligodendrocytes precursor cells (OPC), cycling found DE genes: 441
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 373
+get_de_genes: Pericytes found DE genes: 501
+get_de_genes: V1 found DE genes: 414
+get_de_genes: Vascular endothelial cells found DE genes: 657
+get_de_genes: Vascular endothelial cells, venous found DE genes: 705
+get_de_genes: Vascular leptomeningeal cells found DE genes: 556
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 583
+get_de_genes: VCL_V0d_V2b found DE genes: 385
+get_de_genes: VEP found DE genes: 389
+get_de_genes: VEP_V0 found DE genes: 379
+get_de_genes: total DE genes: 4837
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma =  1
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1443817.28142632
+Sigma value:  0.84
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1418093.76086178
+Sigma value:  0.69
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1397981.23534704
+Sigma value:  0.61
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1389616.48337992
+Sigma value:  0.53
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1383489.3647052
+Sigma value:  0.45
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1380196.47750692
+Sigma value:  0.42
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1379836.67992467
+Sigma value:  0.42
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Begin: process_cell_type_info
+process_cell_type_info: number of cells in reference: 49592
+process_cell_type_info: number of genes in reference: 17043
+End: process_cell_type_info
+create.RCTD: getting regression differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 271
+get_de_genes: Astrocytes, protoplasmic found DE genes: 283
+get_de_genes: Astrocytes, reactive found DE genes: 298
+get_de_genes: B cells found DE genes: 435
+get_de_genes: CSF_N found DE genes: 146
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 193
+get_de_genes: DE_Maf found DE genes: 163
+get_de_genes: DE_Reln found DE genes: 178
+get_de_genes: DE_Rreb1 found DE genes: 171
+get_de_genes: DE_Sox5_Tac1 found DE genes: 161
+get_de_genes: DE_Sox5_Tac2 found DE genes: 203
+get_de_genes: DI_Npy found DE genes: 150
+get_de_genes: DI_Pdyn found DE genes: 149
+get_de_genes: DI_Rorb found DE genes: 164
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 224
+get_de_genes: Ependymal cells found DE genes: 239
+get_de_genes: Infiltrating, bordering leukocytes found DE genes: 514
+get_de_genes: Macrophages, chemotaxis-inducing found DE genes: 525
+get_de_genes: Macrophages, inflammatory found DE genes: 597
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 374
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 361
+get_de_genes: MEL found DE genes: 136
+get_de_genes: MEP found DE genes: 139
+get_de_genes: MI found DE genes: 156
+get_de_genes: Microglia found DE genes: 559
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 369
+get_de_genes: Myeloid, dividing found DE genes: 562
+get_de_genes: Neural stem cells found DE genes: 140
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 326
+get_de_genes: NK, T cells found DE genes: 372
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 160
+get_de_genes: Oligodendrocytes precursor cells (OPC), cycling found DE genes: 202
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 161
+get_de_genes: Pericytes found DE genes: 240
+get_de_genes: V1 found DE genes: 165
+get_de_genes: Vascular endothelial cells found DE genes: 379
+get_de_genes: Vascular endothelial cells, venous found DE genes: 402
+get_de_genes: Vascular leptomeningeal cells found DE genes: 280
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 370
+get_de_genes: VCL_V0d_V2b found DE genes: 136
+get_de_genes: VEP found DE genes: 149
+get_de_genes: VEP_V0 found DE genes: 143
+get_de_genes: total DE genes: 3248
+create.RCTD: getting platform effect normalization differentially expressed genes: 
+get_de_genes: Astrocytes, fibrous found DE genes: 491
+get_de_genes: Astrocytes, protoplasmic found DE genes: 494
+get_de_genes: Astrocytes, reactive found DE genes: 519
+get_de_genes: B cells found DE genes: 870
+get_de_genes: CSF_N found DE genes: 285
+get_de_genes: DE_Cpne4_Prkcg found DE genes: 371
+get_de_genes: DE_Maf found DE genes: 345
+get_de_genes: DE_Reln found DE genes: 366
+get_de_genes: DE_Rreb1 found DE genes: 379
+get_de_genes: DE_Sox5_Tac1 found DE genes: 339
+get_de_genes: DE_Sox5_Tac2 found DE genes: 366
+get_de_genes: DI_Npy found DE genes: 349
+get_de_genes: DI_Pdyn found DE genes: 325
+get_de_genes: DI_Rorb found DE genes: 360
+get_de_genes: Differentiation-committed oligodendrocyte precursors (COPs) found DE genes: 429
+get_de_genes: Ependymal cells found DE genes: 465
+get_de_genes: Infiltrating, bordering leukocytes found DE genes: 1044
+get_de_genes: Macrophages, chemotaxis-inducing found DE genes: 1073
+get_de_genes: Macrophages, inflammatory found DE genes: 1136
+get_de_genes: Mature oligodendrocytes (MOL) found DE genes: 626
+get_de_genes: Mature oligodendrocytes (MOL), ischemic found DE genes: 637
+get_de_genes: MEL found DE genes: 368
+get_de_genes: MEP found DE genes: 341
+get_de_genes: MI found DE genes: 368
+get_de_genes: Microglia found DE genes: 1062
+get_de_genes: Myelin forming oligodendrocytes (MFOL) found DE genes: 585
+get_de_genes: Myeloid, dividing found DE genes: 1122
+get_de_genes: Neural stem cells found DE genes: 325
+get_de_genes: Newly formed oligodendrocytes (NFOL) found DE genes: 528
+get_de_genes: NK, T cells found DE genes: 847
+get_de_genes: Oligodendrocytes precursor cells (OPC) found DE genes: 314
+get_de_genes: Oligodendrocytes precursor cells (OPC), cycling found DE genes: 443
+get_de_genes: Oligodendrocytes precursor cells (OPC), differentiating found DE genes: 374
+get_de_genes: Pericytes found DE genes: 503
+get_de_genes: V1 found DE genes: 402
+get_de_genes: Vascular endothelial cells found DE genes: 659
+get_de_genes: Vascular endothelial cells, venous found DE genes: 707
+get_de_genes: Vascular leptomeningeal cells found DE genes: 561
+get_de_genes: Vascular leptomeningeal cells, ECM forming found DE genes: 593
+get_de_genes: VCL_V0d_V2b found DE genes: 375
+get_de_genes: VEP found DE genes: 378
+get_de_genes: VEP_V0 found DE genes: 371
+get_de_genes: total DE genes: 4843
+fitBulk: decomposing bulk
+chooseSigma: using initial Q_mat with sigma =  1
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1616625.28232009
+Sigma value:  0.84
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1586644.60672874
+Sigma value:  0.69
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1563141.84586968
+Sigma value:  0.61
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1553367.42370671
+Sigma value:  0.53
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1546229.52626397
+Sigma value:  0.45
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1542449.82404275
+Sigma value:  0.42
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Likelihood value: 1542071.92474915
+Sigma value:  0.42
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Loading required package: spacexr
+loaded spacexr and set parent environment
+Warning messages:
+1: In asMethod(object) :
+  sparse->dense coercion: allocating vector of size 1.0 GiB
+2: In asMethod(object) :
+  sparse->dense coercion: allocating vector of size 1.0 GiB
+3: In asMethod(object) :
+  sparse->dense coercion: allocating vector of size 1.0 GiB
+4: In asMethod(object) :
+  sparse->dense coercion: allocating vector of size 1.0 GiB

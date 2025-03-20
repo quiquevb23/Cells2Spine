@@ -1,0 +1,6 @@
+{
+  "input_dir": "/home/quiquevb/Cells2Spine/Cells2Spine/Outputs/spatial/DEA_areas",
+  "r_script": "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Functional_Enrichment/ClusterProfiler.R",
+  "renv_project": "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Functional_Enrichment"
+}
+

@@ -1,0 +1,14 @@
+{
+  "input_directory": "/storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices",
+  "sc_ref_directory": "/storage/gge/Quique/TabulaeParalytica/single/GSE234774.h5",
+  "tmp_directory": "./tmp/rctd_data",
+  "file_types": ["h5ad"],
+  "python_script": ["conversor.py", "conversor_ref.py"],
+  "r_script": "RCTD.R",
+  "r_conda_env": "r_4.4_env",
+  "conda_env": "scanpy-env",
+  "renv_project": "/home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Deconvolution/RCTD/only_R",
+  "samples": ["Spatial_1", "Spatial_2", "Spatial_3", "Spatial_4"],
+  "num_processes": 4
+}
+

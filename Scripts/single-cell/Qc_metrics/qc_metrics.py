@@ -44,16 +44,20 @@ def is_outlier(adata, metric: str, nmads: int):
 for file_name in os.listdir(base_dir):
     sample_path = os.path.join(base_dir, file_name, "outs", "count")
     for file in os.listdir(sample_path):
-        if file.endswith('filtered_feature_bc_matrix.h5'):
+        if file.endswith('filtered_feature_bc_matrix.h5') or file.endswith('cellbender_filtered_filtered.h5'):
             sample_name = file_name
             print(f"Processing sample {sample_name}")
             # Define the directories to save plots and matrices
-            output_dir = os.path.join(output_base_dir, sample_name)
+            output_dir = os.path.join(output_base_dir, sample_name, "Qc_metrics")
             output_data_dir = os.path.join(base_dir, file_name, "outs", "matrices")
             os.makedirs(output_dir, exist_ok=True)
             os.makedirs(output_data_dir, exist_ok=True)
-            adata = sc.read_10x_h5(os.path.join(sample_path, file))
+            if file.endswith(".h5ad"):
+                adata = sc.read_h5ad(os.path.join(sample_path, file))
+            else:
+                adata = sc.read_10x_h5(os.path.join(sample_path, file))
             adata.var_names_make_unique()
+            adata.obs_names_make_unique()
             adata.layers['counts'] = adata.X #save raw counts
             adata.var['mt'] = adata.var_names.str.startswith('mt-')
             adata.var["ribo"] = adata.var_names.str.startswith(("Rps", "Rpl"))
@@ -76,14 +80,14 @@ for file_name in os.listdir(base_dir):
             # Extract summary statistics
             df = adata.obs[["total_counts", "n_genes_by_counts", "pct_counts_mt", "pct_counts_ribo"]]
             summary_stats = df.describe().T  # Get summary statistics (mean, std, min, 25%, 50%, 75%$
-
+            print(adata)
             '''
             # Get additional specific statistics
             specific_stats = df.agg(['mean', 'median', 'quantile']).T
             specific_stats['quantile_25'] = df.quantile(0.25)
             specific_stats['quantile_75'] = df.quantile(0.75)
             '''
-
+            print(summary_stats)
             # Plot scatter and distplot centered in median
             # Get median and IQR for filtering
             median_total_counts = df['total_counts'].median()
@@ -98,9 +102,14 @@ for file_name in os.listdir(base_dir):
                 (df['n_genes_by_counts'] > (median_n_genes - 1.5 * iqr_n_genes)) &
                 (df['n_genes_by_counts'] < (median_n_genes + 1.5 * iqr_n_genes))
             ]
+            print(median_total_counts)
+            print(median_n_genes)
+            print(iqr_total_counts)
+            print(iqr_n_genes)
+            
             # Scatter plot with filtered data
             adata_filtered = adata[filtered_data.index]
-
+            print(adata_filtered)
             # Create the scatter plot centered around the median
             sc.pl.scatter(adata_filtered, x='total_counts', y='n_genes_by_counts', color='pct_counts_mt', 
                           title='Filtered Scatter Plot (centered around median)', show=False)

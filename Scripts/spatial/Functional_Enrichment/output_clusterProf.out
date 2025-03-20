@@ -1,0 +1,32 @@
+Restoring renv environment in project: /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Functional_Enrichment
+- One or more packages recorded in the lockfile are not installed.
+- Use `renv::status()` for more details.
+The following package(s) will be updated:
+
+# Bioconductor 3.20 ----------------------------------------------------------
+- clusterProfiler   [* -> 4.14.4]
+- enrichplot        [* -> 1.26.6]
+
+# CRAN -----------------------------------------------------------------------
+- ggtangle          [* -> 0.0.6]
+- igraph            [* -> 2.1.4]
+
+# Downloading packages -------------------------------------------------------
+- Querying repositories for available source packages ... Done!
+- Downloading clusterProfiler from Bioconductor 3.20 ... OK [file is up to date]
+- Downloading enrichplot from Bioconductor 3.20 ... OK [file is up to date]
+- GitHub authentication credentials are not available.
+- Please set GITHUB_PAT, or ensure the 'gitcreds' package is installed.
+- See https://usethis.r-lib.org/articles/git-credentials.html for more details.
+- Downloading ggtangle from CRAN ...            OK [file is up to date]
+- Downloading igraph from CRAN ...              OK [file is up to date]
+Successfully downloaded 4 packages in 5.5 seconds.
+
+# Installing packages --------------------------------------------------------
+- Installing igraph ...                         OK [built from source and cached in 3.0m]
+- Installing ggtangle ...                       OK [built from source and cached in 6.9s]
+- Installing enrichplot ...                     OK [built from source and cached in 31s]
+- Installing clusterProfiler ...                OK [built from source and cached in 18s]
+Running R script: /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/spatial/Functional_Enrichment/ClusterProfiler.R
+Functional enrichment analysis completed. Results saved in input directory.
+Functional Enrichment done.

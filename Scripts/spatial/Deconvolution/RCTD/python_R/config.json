@@ -1,0 +1,13 @@
+{
+  "base_dir": "/storage/gge/Quique/Cells2SpineData/Pilot/spatial/matrices",
+  "output_dir": "/home/quiquevb/Cells2Spine/Cells2Spine/Outputs/spatial",
+  "sc_ref_dir": "/storage/gge/Quique/TabulaeParalytica/single/",
+  "tmp_directory": "./tmp/rctd_data",
+  "file_types": ["h5ad"],
+  "python_script": ["conversor.py", "conversor_reference"],
+  "r_script": "RCTD.R",
+  "conda_env": "scanpy-env",
+  "renv_project": "/path/to/renv/project",
+  "num_processes": 4
+}
+

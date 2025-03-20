@@ -116,7 +116,7 @@ R[write to console]: The following objects are masked from ‘package:matrixStat
     anyMissing, rowMedians
 
 
-R[write to console]: Creating ~25000 artificial doublets...
+R[write to console]: Creating ~22417 artificial doublets...
 
 R[write to console]: Dimensional reduction
 
@@ -124,17 +124,17 @@ R[write to console]: Evaluating kNN...
 
 R[write to console]: Training model...
 
-R[write to console]: iter=0, 14219 cells excluded from training.
+R[write to console]: iter=0, 6600 cells excluded from training.
 
-R[write to console]: iter=1, 16623 cells excluded from training.
+R[write to console]: iter=1, 6572 cells excluded from training.
 
-R[write to console]: iter=2, 16681 cells excluded from training.
+R[write to console]: iter=2, 6519 cells excluded from training.
 
-R[write to console]: Threshold found:0.004
+R[write to console]: Threshold found:0.465
 
-R[write to console]: 14487 (26%) doublets called
+R[write to console]: 4233 (15.1%) doublets called
 
-R[write to console]: Creating ~25000 artificial doublets...
+R[write to console]: Creating ~24516 artificial doublets...
 
 R[write to console]: Dimensional reduction
 
@@ -142,25 +142,37 @@ R[write to console]: Evaluating kNN...
 
 R[write to console]: Training model...
 
-R[write to console]: iter=0, 16766 cells excluded from training.
+R[write to console]: iter=0, 7948 cells excluded from training.
 
-R[write to console]: iter=1, 19335 cells excluded from training.
+R[write to console]: iter=1, 7762 cells excluded from training.
 
-R[write to console]: iter=2, 19333 cells excluded from training.
+R[write to console]: iter=2, 7581 cells excluded from training.
 
-R[write to console]: Threshold found:0.002
+R[write to console]: Threshold found:0.503
 
-R[write to console]: 17217 (28.3%) doublets called
+R[write to console]: 5183 (16.9%) doublets called
 
 R[write to console]: Warning messages:
 
 R[write to console]: 1: 
+R[write to console]: In .checkSCE(sce) :
+R[write to console]: 
+ 
+R[write to console]:  Some cells in `sce` have an extremely low read counts; note that these could trigger errors and might best be filtered out
+
+R[write to console]: 2: 
 R[write to console]: In scDblFinder(SingleCellExperiment(list(counts = data_mat), )) :
 R[write to console]: 
  
 R[write to console]:  You are trying to run scDblFinder on a very large number of cells. If these are from different captures, please specify this using the `samples` argument.TRUE
 
-R[write to console]: 2: 
+R[write to console]: 3: 
+R[write to console]: In .checkSCE(sce) :
+R[write to console]: 
+ 
+R[write to console]:  Some cells in `sce` have an extremely low read counts; note that these could trigger errors and might best be filtered out
+
+R[write to console]: 4: 
 R[write to console]: In scDblFinder(SingleCellExperiment(list(counts = data_mat), )) :
 R[write to console]: 
  

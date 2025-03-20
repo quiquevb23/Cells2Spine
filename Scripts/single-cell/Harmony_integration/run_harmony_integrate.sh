@@ -9,7 +9,8 @@
 #SBATCH --mem-per-cpu=8G
 #SBATCH --qos=medium
 
-source /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/config.sh
+#source /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/config.sh
+source /home/quiquevb/Cells2Spine/Cells2Spine/Scripts/config_cellbender.sh
 
 module load anaconda
 #export PYTHONNOUSERSITE="literallyanyletters"

@@ -1,0 +1,42 @@
+- Project '~/Cells2Spine/Cells2Spine/Scripts/spatial/DEG_matched_delineation_areas' loaded. [renv 1.0.11]
+Processing sample Spatial_4
+Processing sample Spatial_2
+Processing sample Spatial_3
+Processing sample Spatial_1
+Transposing count matrix to match (genes, samples) format.
+Initial df shape: (16134, 80)
+First few rows of df:
+              AACTCTCAATAGAGCG-1  ...  TGCCCGTACCGTTAAA-1-2
+LOC108349479                 0.0  ...                   0.0
+LOC102556098                 1.0  ...                   1.0
+LOC103690937                 0.0  ...                   2.0
+LOC108348623                 0.0  ...                   0.0
+Lrp11                        3.0  ...                   6.0
+
+[5 rows x 80 columns]
+Metadata shape: (80, 2)
+                       sample condition
+AACTCTCAATAGAGCG-1  Spatial_4   injured
+ACCGATGGTAGCATCG-1  Spatial_4   injured
+ACTTATACTTACCCGG-1  Spatial_4   injured
+AGGGTCGATGCGAACT-1  Spatial_4   injured
+AGGGTGCTCTCGAGGG-1  Spatial_4   injured
+      sample condition
+0  Spatial_1   healthy
+1  Spatial_2   healthy
+2  Spatial_3   injured
+3  Spatial_4   injured
+counts shape and columns:
+(4, 16134)
+Index(['LOC108349479', 'LOC102556098', 'LOC103690937', 'LOC108348623', 'Lrp11',
+       'Pcmt1', 'Nup43', 'Lats1', 'Katna1', 'Ginm1',
+       ...
+       'Trnd', 'Trnk', 'Trng', 'Trnr', 'Trnh', 'Trns2', 'Trnl2', 'Trne',
+       'Trnt', 'Trnp'],
+      dtype='object', length=16134)
+Pseudobulk obs head:
+      sample condition
+0  Spatial_1   healthy
+1  Spatial_2   healthy
+2  Spatial_3   injured
+3  Spatial_4   injured
