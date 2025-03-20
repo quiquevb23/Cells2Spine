@@ -1,6 +1,10 @@
 Outputs
+Scripts/CellBender/ckpt.tar.gz
 Scripts/CellBender/Sample_1/ckpt.tar.gz
 Scripts/CellBender/Sample_3/ckpt.tar.gz
 Scripts/spatial/DEG_among_domains/tmp/
+Scripts/spatial/DEG_among_domains/error_SpatialMix.log
+Scripts/spatial/DEG_among_domains/alldata_proportions.h5ad
 Scripts/spatial/StLearn/tmp/
 Scripts/spatial/DEG_among_domains/test/
+Scripts/spatial/Deconvolution/RCTD/only_R/tmp/rctd_data/Spatial_*_counts.csv
